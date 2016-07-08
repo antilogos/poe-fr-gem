@@ -1,0 +1,263 @@
+Anger
+Cleave
+Decoy Totem
+Determination
+Devouring Totem
+Dominating Blow
+Enduring Cry
+Flame Totem
+Glacial Hammer
+Ground Slam
+Heavy Strike
+Immortal Call
+Infernal Blow
+Leap Slam
+Lightning Strike
+Molten Shell
+Punishment
+Rejuvenation Totem
+Searing Bond
+Shield Charge
+Shockwave Totem
+Sweep
+Vitality
+Warlord's Mark
+Arctic Armour
+Bear Trap
+Blood Rage
+Burning Arrow
+Cyclone
+Detonate Dead
+Double Strike
+Dual Strike
+Elemental Hit
+Ethereal Knives
+Explosive Arrow
+Fire Trap
+Flicker Strike
+Freeze Mine
+Frenzy
+Grace
+Haste
+Hatred
+Ice Shot
+Lightning Arrow
+Caustic Arrow
+Projectile Weakness
+Puncture
+Rain of Arrows
+Split Arrow
+Temporal Chains
+Viper Strike
+Whirling Blades
+Arc
+Arctic Breath
+Clarity
+Cold Snap
+Conductivity
+Conversion Trap
+Assassin's Mark
+Discharge
+Discipline
+Elemental Weakness
+Enfeeble
+Fireball
+Firestorm
+Flammability
+Freezing Pulse
+Frostbite
+Frost Wall
+Ice Nova
+Ice Spear
+Incinerate
+Lightning Warp
+Power Siphon
+Purity of Elements
+Raise Spectre
+Raise Zombie
+Righteous Fire
+Shock Nova
+Spark
+Summon Skeletons
+Tempest Shield
+Vulnerability
+Wrath
+Added Fire Damage
+Blood Magic
+Cold to Fire
+Fire Penetration
+Increased burning damage
+Increased Duration
+Iron Grip
+Iron Will
+Item Quantity
+Knockback
+Life Gain on Hit
+Life Leech
+Melee Damage on Full Life
+Melee Physical Damage
+Melee Splash
+Multistrike
+Ranged Attack Totem
+Reduced Mana
+Spell Totem
+Stun
+Weapon Elemental Damage
+Added Cold Damage
+Additional Accuracy
+Blind
+Chain
+Chance to Flee
+Cold Penetration
+Culling Strike
+Faster Attacks
+Faster Projectiles
+Fork
+Greater Multiple Projectiles
+Lesser Multiple Projectiles
+Mana Leech
+Pierce
+Point Blank
+Trap
+Added Chaos Damage
+Added Lightning Damage
+Chance to Ignite
+Concentrated Effect
+Elemental Proliferation
+Faster Casting
+Increased Area of Effect
+Increased Critical Damage
+Increased Critical Strikes
+Item Rarity
+Lightning Penetration
+Minion and Totem Elemental Resistance
+Minion Damage
+Minion Life
+Minion Speed
+Power Charge on Critical
+Remote Mine
+Spectral Throw
+Animate Guardian
+Animate Weapon
+Slower Projectiles
+Less Duration
+Curse on Hit
+Cast on Critical Strike
+Cast on Melee Kill
+Cast on Death
+Cast when Damage Taken
+Cast when Stunned
+Endurance Charge on Melee Stun
+Reave
+Lightning Trap
+Purity of Fire
+Purity of Ice
+Purity of Lightning
+Multiple Traps
+Storm Call
+Smoke Mine
+Portal
+Generosity
+Block Chance Reduction
+Physical Projectile Attack Damage
+Spell Echo
+Molten Strike
+Herald of Ash
+Herald of Ice
+Bone Offering
+Flesh Offering
+Tornado Shot
+Desecrate
+Summon Raging Spirit
+Ball Lightning
+Glacial Cascade
+Flame Surge
+Flameblast
+Empower
+Enhance
+Enlighten
+Poacher's Mark
+Vaal Grace
+Kinetic Blast
+Static Strike
+Reckoning
+Vengeance
+Riposte
+Blink Arrow
+Mirror Arrow
+Herald of Thunder
+Lightning Tendrils
+Physical to Lightning
+Convocation
+Vaal Burning Arrow
+Vaal Cyclone
+Vaal Detonate Dead
+Vaal Glacial Hammer
+Vaal Ground Slam
+Vaal Haste
+Vaal Immortal Call
+Vaal Lightning Strike
+Vaal Molten Shell
+Vaal Rain of Arrows
+Vaal Reave
+Vaal Spectral Throw
+Vaal Double Strike
+Vaal Arc
+Vaal Clarity
+Vaal Cold Snap
+Vaal Discipline
+Vaal Fireball
+Vaal Flameblast
+Vaal Ice Nova
+Vaal Lightning Trap
+Vaal Lightning Warp
+Vaal Power Siphon
+Vaal Righteous Fire
+Vaal Spark
+Vaal Storm Call
+Vaal Summon Skeletons
+Barrage
+Abyssal Cry
+Rallying Cry
+Summon Chaos Golem
+Summon Flame Golem
+Summon Ice Golem
+Vigilant Strike
+Ice Crash
+Fire Nova Mine
+Flame Dash
+Phase Run
+Frost Blades
+Magma Orb
+Wild Strike
+Detonate Mines
+Fortify
+Bloodlust
+Trap and Mine Damage
+Ice Bite
+Hypothermia
+Innervate
+Blade Fall
+Blade Vortex
+Blast Rain
+Shrapnel Shot
+Siege Balista
+Contagion
+Essence Drain
+Wither
+Blasphemy
+Controlled Destruction
+Rapid Decay
+Void Manipulation
+Poison
+Ancestral Protector
+Earthquake
+Frost Bomb
+Ice Trap
+Orb of Storm
+Summon Stone Golem
+Sunder
+Cluster Traps
+Elemental Focus
+Minefield
+Trap Cooldown
