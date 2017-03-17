@@ -1,0 +1,861 @@
+[{
+  "Vaal Fireball":"{\"nom\":\"Vaal Fireball\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"fire\"],\"requiertLevel\":0,\"description\":\"Launches a series of fireballs in all directions around the caster.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Damaging cones of lightning surround you.\",\"quality\":\"\"}"
+},{
+  "Siege Ballista":"{\"nom\":\"Siege Ballista\",\"_type\":\"active\",\"tag\":[\"totem\",\"dexterity\",\"active_skill\",\"attack\",\"duration\",\"bow\"],\"requiertLevel\":4,\"description\":\"Summons a totem that attacks with piercing arrows. It attacks slowly, but deals increased damage.\",\"quality\":\"\"}"
+},{
+  "Wildfire":"{\"nom\":\"Wildfire\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"chaining\",\"area\",\"fire\"],\"requiertLevel\":4,\"description\":\"Fire damages and ignites those around a targeted enemy. This effect chains and repeats on other enemy targets.\",\"quality\":\"\"}"
+},{
+  "Vaal Spectral Throw":"{\"nom\":\"Vaal Spectral Throw\",\"_type\":\"active\",\"tag\":[\"projectile\",\"dexterity\",\"active_skill\",\"vaal\",\"attack\"],\"requiertLevel\":0,\"description\":\"Throws a spectral copy of your melee weapon. It spirals out in a spinning attack that strikes enemies in its path.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Fires a chaining burst of ethereal blades.\",\"quality\":\"\"}"
+},{
+  "Herald of Ice":"{\"nom\":\"Herald of Ice\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"cast\",\"area\",\"cold\"],\"requiertLevel\":0,\"description\":\"Channel ice through your hands, adding cold damage to spells and attacks. If you shatter an enemy, they explode and deal AoE cold damage to enemies near them.\",\"quality\":\"herald_of_ice_cold_damage_+% 750\"}"
+},{
+  "Cold Penetration Support":"{\"nom\":\"Cold Penetration Support\",\"_type\":\"support\",\"tag\":[\"cold\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Melee Damage on Full Life Support":"{\"nom\":\"Melee Damage on Full Life Support\",\"_type\":\"support\",\"tag\":[\"melee\",\"strength\",\"support\",\"attack\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Culling Strike Support":"{\"nom\":\"Culling Strike Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Static Strike":"{\"nom\":\"Static Strike\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"melee\",\"area\",\"duration\",\"lightning\"],\"requiertLevel\":0,\"description\":\"Strike your enemies with a melee weapon, building up static energy on you. This energy damages enemies around you when it expires. \",\"quality\":\"\"}"
+},{
+  "Vitality":"{\"nom\":\"Vitality\",\"_type\":\"active\",\"tag\":[\"aura\",\"strength\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":0,\"description\":\"Casts an aura that grants life regeneration to you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "Herald of Thunder":"{\"nom\":\"Herald of Thunder\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"cast\",\"area\",\"duration\",\"lightning\"],\"requiertLevel\":0,\"description\":\"Channel lightning through your hands, adding lightning damage to spells and attacks. If you kill a shocked enemy, lightning bolts will strike enemies around you for a short duration.\",\"quality\":\"herald_of_thunder_lightning_damage_+% 750\"}"
+},{
+  "Vaal Discipline":"{\"nom\":\"Vaal Discipline\",\"_type\":\"active\",\"tag\":[\"aura\",\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":0,\"description\":\"Casts a temporary aura that prevents energy shield recharge being delayed by damage taken for you and your allies.\",\"quality\":\"\"}"
+},{
+  "Elemental Projectiles":"{\"nom\":\"Elemental Projectiles\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":0,\"description\":\"Fires a burst of three piercing projectiles in an arc in front of you.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Releases a nova of projectiles based on your weapon, leaving chilling ground in their wake.\",\"quality\":\"\"}"
+},{
+  "Melee Splash Support":"{\"nom\":\"Melee Splash Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\",\"melee\",\"attack\",\"area\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Vaal Lightning Trap":"{\"nom\":\"Vaal Lightning Trap\",\"_type\":\"active\",\"tag\":[\"projectile\",\"trap\",\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"duration\",\"lightning\"],\"requiertLevel\":0,\"description\":\"Throws a trap that launches a ring of projectiles through the enemy that set it off, dealing lightning damage to them and subsequent targets and leaving a trail of shocking ground.\",\"quality\":\"\"}"
+},{
+  "Enduring Cry":"{\"nom\":\"Enduring Cry\",\"_type\":\"active\",\"tag\":[\"warcry\",\"strength\",\"active_skill\",\"area\",\"duration\"],\"requiertLevel\":16,\"description\":\"Performs a warcry, adding endurance charges proportional to the number of surrounding enemies and granting life regeneration to you for a short time if there are nearby enemies. Taunts all nearby enemies to attack the user. Shares a cooldown with other Warcry skills.\",\"quality\":\"base_skill_area_of_effect_+% 3000\"}"
+},{
+  "Return Projectiles Support":"{\"nom\":\"Return Projectiles Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"projectile\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Flame Surge":"{\"nom\":\"Flame Surge\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"fire\"],\"requiertLevel\":12,\"description\":\"Strikes enemies in front of you with a surge of flame. Burning enemies are dealt more damage.\",\"quality\":\"\"}"
+},{
+  "Vaal Double Strike":"{\"nom\":\"Vaal Double Strike\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"vaal\",\"attack\",\"melee\",\"duration\"],\"requiertLevel\":0,\"description\":\"Performs two fast attacks on target enemy with your main hand melee weapon, and summons your double for a duration to continuously attack monsters in this fashion.\",\"quality\":\"\"}"
+},{
+  "Faster Casting Support":"{\"nom\":\"Faster Casting Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\",\"spell\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Release an arc of force from your weapon or fists, damaging enemies in front of you.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Releases a nova of fire around you, damaging nearby enemies.\",\"quality\":\"\"}"
+},{
+  "Energy Beam":"{\"nom\":\"Energy Beam\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\"],\"requiertLevel\":28,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Purity of Elements":"{\"nom\":\"Purity of Elements\",\"_type\":\"active\",\"tag\":[\"aura\",\"intelligence\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":0,\"description\":\"Casts an aura that grants elemental resistances to you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Summons a short-lived flaming skull that rushes at nearby enemies and attacks them rapidly. Enemies will not directly engage these spirits, and can pass through them.\",\"quality\":\"\"}"
+},{
+  "Phase Run":"{\"nom\":\"Phase Run\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"spell\",\"duration\",\"movement\"],\"requiertLevel\":34,\"description\":\"Gain a buff that makes you faster, harder to detect, and grants Phasing, letting you pass through enemies. Performing any skill replaces this buff with one that boosts melee damage. Consumes Frenzy Charges to increase duration.\",\"quality\":\"base_movement_velocity_+% 500\"}"
+},{
+  "Blind Support":"{\"nom\":\"Blind Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Pierce Support":"{\"nom\":\"Pierce Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"projectile\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Vaal Detonate Dead":"{\"nom\":\"Vaal Detonate Dead\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"vaal\",\"cast\",\"area\",\"fire\"],\"requiertLevel\":0,\"description\":\"Explodes an unused corpse, dealing fire damage to nearby enemies. Nearby corpses will also explode in a chain reaction.\",\"quality\":\"\"}"
+},{
+  "Contagion":"{\"nom\":\"Contagion\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\",\"chaos\"],\"requiertLevel\":4,\"description\":\"Unleashes a vile contagion on enemies, dealing chaos damage over time. If an enemy dies while affected by Contagion, it spreads to other enemies.\",\"quality\":\"\"}"
+},{
+  "Increased Critical Damage Support":"{\"nom\":\"Increased Critical Damage Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Vaal Immortal Call":"{\"nom\":\"Vaal Immortal Call\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"vaal\",\"spell\",\"duration\"],\"requiertLevel\":0,\"description\":\"Discharges Endurance Charges, making the character unable to die for a short time, proportional to how many endurance charges were expended.\",\"quality\":\"base_cast_speed_+% 2000\"}"
+},{
+  "Vaal Spark":"{\"nom\":\"Vaal Spark\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"duration\",\"lightning\"],\"requiertLevel\":0,\"description\":\"Continuously launches unpredictable sparks in all directions that move randomly until they hit an enemy or expire.\",\"quality\":\"\"}"
+},{
+  "Flicker Strike":"{\"nom\":\"Flicker Strike\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"melee\",\"movement\"],\"requiertLevel\":0,\"description\":\"Teleports the character to a nearby monster and attacks it with a melee weapon. If no specific monster is chosen, one is picked at random. The cooldown can be bypassed by expending a Frenzy Charge.\",\"quality\":\"damage_+% 1000\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Animates a melee weapon to fight by your side. You cannot animate unidentified weapons.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Release a lightning charged spinning copy of your weapon or its projectiles that rotates around a point, damaging enemies in an area.\",\"quality\":\"\"}"
+},{
+  "Spirit Offering":"{\"nom\":\"Spirit Offering\",\"_type\":\"active\",\"tag\":[\"minion\",\"intelligence\",\"active_skill\",\"spell\",\"duration\"],\"requiertLevel\":12,\"description\":\"Consumes a corpse, granting energy shield, extra chaos damage and elemental resistances to your minions. The new energy shield is recovered as it's granted. The skill consumes other nearby corpses, increasing the duration and amount of energy shield granted for each corpse consumed.\",\"quality\":\"\"}"
+},{
+  "Elemental Focus Support":"{\"nom\":\"Elemental Focus Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Damaging cones of lightning surround you.\",\"quality\":\"\"}"
+},{
+  "Lightning Tendrils":"{\"nom\":\"Lightning Tendrils\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"lightning\"],\"requiertLevel\":1,\"description\":\"Lightning is released from your hands four times in quick succession, damaging all enemies in an arc in front of you.\",\"quality\":\"\"}"
+},{
+  "Enhance Support":"{\"nom\":\"Enhance Support\",\"_type\":\"support\",\"tag\":[\"low_max_level\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Blast Rain":"{\"nom\":\"Blast Rain\",\"_type\":\"active\",\"tag\":[\"fire\",\"dexterity\",\"active_skill\",\"attack\",\"area\",\"bow\"],\"requiertLevel\":28,\"description\":\"Fires an arrow up in the air, which splits and rains down in a series of explosions over an area. The explosions will always overlap on the targeted area.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Drops a meteor from above on a nearby foe, dealing fire damage in an area around them.\",\"quality\":\"\"}"
+},{
+  "Stun Support":"{\"nom\":\"Stun Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Creates a clone of you that attacks with your weapon.\",\"quality\":\"\"}"
+},{
+  "Innervate Support":"{\"nom\":\"Innervate Support\",\"_type\":\"support\",\"tag\":[\"lightning\",\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Repeatedly fires a piercing projectile based on your weapon, converting some physical damage to fire. The projectiles form an arc in front of you.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Charges you with lightning which lasts a duration before unleashing, damaging surrounding enemies.\",\"quality\":\"\"}"
+},{
+  "Generosity Support":"{\"nom\":\"Generosity Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\",\"aura\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Fork Support":"{\"nom\":\"Fork Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"projectile\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Rapid Decay Support":"{\"nom\":\"Rapid Decay Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"duration\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Vaal Reave":"{\"nom\":\"Vaal Reave\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"vaal\",\"attack\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"Repeatedly attacks a large area in different directions. Each Vaal Reave that hits an enemy increases the area of effect. The area is reset after a short period without hitting anything. Only works with Daggers, Claws, and One-Handed Swords.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"A burst of flame errupts from the location of a hit, dealing fire damage.\",\"quality\":\"\"}"
+},{
+  "Cast On Critical Strike Support":"{\"nom\":\"Cast On Critical Strike Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"spell\",\"trigger\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"critical_strike_chance_+% 1000\"}"
+},{
+  "Vigilant Strike":"{\"nom\":\"Vigilant Strike\",\"_type\":\"active\",\"tag\":[\"attack\",\"strength\",\"active_skill\",\"melee\"],\"requiertLevel\":0,\"description\":\"Attacks the enemy with a powerful melee strike. You gain the Fortify buff, granting damage reduction. The cooldown can be bypassed by expending an Endurance Charge. Requires a Melee Weapon.\",\"quality\":\"fortify_duration_+% 1000\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Summons three icy skull minions that explode at the end of their duration.\",\"quality\":\"\"}"
+},{
+  "Clarity":"{\"nom\":\"Clarity\",\"_type\":\"active\",\"tag\":[\"aura\",\"intelligence\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":10,\"description\":\"Casts an aura that grants mana regeneration to you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Releases a nova of fire around you, damaging nearby enemies.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Arctic Armour":"{\"nom\":\"Arctic Armour\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"spell\",\"duration\",\"cold\"],\"requiertLevel\":0,\"description\":\"Summons an icy barrier that chills enemies when they hit you. You drop chilled ground while moving, and take less Fire and Physical damage while stationary.\",\"quality\":\"skill_effect_duration_+% 1000\"}"
+},{
+  "Cast when Damage Taken Support":"{\"nom\":\"Cast when Damage Taken Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\",\"spell\",\"trigger\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"damage_+% 500\"}"
+},{
+  "Fire Trap":"{\"nom\":\"Fire Trap\",\"_type\":\"active\",\"tag\":[\"trap\",\"dexterity\",\"active_skill\",\"spell\",\"duration\",\"area\",\"fire\"],\"requiertLevel\":1,\"description\":\"Throws a trap that explodes when triggered, dealing fire damage to surrounding enemies and leaving an area of burning ground that damages enemies who walk through it.\",\"quality\":\"burn_damage_+% 1500\"}"
+},{
+  "Vaal Arc":"{\"nom\":\"Vaal Arc\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"chaining\",\"lightning\"],\"requiertLevel\":0,\"description\":\"An arc of lightning stretches from the caster to a targeted nearby enemy and chains on to many additional targets.\",\"quality\":\"\"}"
+},{
+  "Faster Projectiles Support":"{\"nom\":\"Faster Projectiles Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"projectile\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Fires a chaining burst of ethereal blades.\",\"quality\":\"\"}"
+},{
+  "Flammability":"{\"nom\":\"Flammability\",\"_type\":\"active\",\"tag\":[\"curse\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\",\"fire\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, making them less resistant to fire damage and giving them a chance to be ignited by fire damage.\",\"quality\":\"\"}"
+},{
+  "Animate Guardian":"{\"nom\":\"Animate Guardian\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"spell\",\"minion\"],\"requiertLevel\":28,\"description\":\"Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified weapons.\",\"quality\":\"\"}"
+},{
+  "Cast on Melee Kill Support":"{\"nom\":\"Cast on Melee Kill Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\",\"melee\",\"attack\",\"spell\",\"trigger\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"damage_+% 500\"}"
+},{
+  "Freeze Mine":"{\"nom\":\"Freeze Mine\",\"_type\":\"active\",\"tag\":[\"mine\",\"dexterity\",\"active_skill\",\"spell\",\"area\",\"duration\",\"cold\"],\"requiertLevel\":10,\"description\":\"Lays a remote mine that you can detonate to freeze all enemies in the area.\",\"quality\":\"\"}"
+},{
+  "Empower Support":"{\"nom\":\"Empower Support\",\"_type\":\"support\",\"tag\":[\"low_max_level\",\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Ground Slam":"{\"nom\":\"Ground Slam\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"The character slams the ground in front of them with their main hand weapon, creating a wave that travels forward and damages enemies with an increased chance to stun. Only works with Staves or Maces.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"This attack is performed repeatedly by a ghostly imitation of your weapon.\",\"quality\":\"\"}"
+},{
+  "Tornado Shot":"{\"nom\":\"Tornado Shot\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"bow\"],\"requiertLevel\":28,\"description\":\"Fires a piercing shot that travels until it reaches the targeted location. It will then fire projectiles out in all directions from that point.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Static Tether":"{\"nom\":\"Static Tether\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Fires a chaining burst of ethereal blades.\",\"quality\":\"\"}"
+},{
+  "Ice Spear":"{\"nom\":\"Ice Spear\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"cold\"],\"requiertLevel\":12,\"description\":\"Launches a shard of ice that pierces close enemies, before exploding on a distant enemy with a much higher critical strike chance.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Damaging cones of lightning surround you.\",\"quality\":\"\"}"
+},{
+  "Damage Infusion":"{\"nom\":\"Damage Infusion\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":0,\"description\":\"Moves damage from nearby enemies to the target enemy. They are healed for the amount of damage moved.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Deals a portion of your main hand damage in an area around you and creates Consecrated Ground, causing you and your allies to regenerate life.\",\"quality\":\"\"}"
+},{
+  "Additional Accuracy Support":"{\"nom\":\"Additional Accuracy Support\",\"_type\":\"support\",\"tag\":[\"attack\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Vaal Breach":"{\"nom\":\"Vaal Breach\",\"_type\":\"active\",\"tag\":[\"low_max_level\",\"active_skill\",\"vaal\",\"spell\"],\"requiertLevel\":0,\"description\":\"Creates a breach, making you vulnerable to its powerful inhabitants.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Glacial Hammer":"{\"nom\":\"Glacial Hammer\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"melee\",\"cold\"],\"requiertLevel\":0,\"description\":\"Hits the enemy, converting some of your physical damage to cold damage. If the enemy is frozen and is on less than one third life, they will shatter when hit by Glacial Hammer. Requires a Mace or Staff.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Charges you with lightning which lasts a duration before unleashing, damaging surrounding enemies.\",\"quality\":\"\"}"
+},{
+  "Blade Vortex":"{\"nom\":\"Blade Vortex\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":12,\"description\":\"This spell creates ethereal blades which orbit in an area around you, periodically dealing damage to all enemies in their radius. As more blades are added, the damage becomes greater and more frequent.\",\"quality\":\"\"}"
+},{
+  "Rain of Arrows":"{\"nom\":\"Rain of Arrows\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"area\",\"bow\"],\"requiertLevel\":12,\"description\":\"Fires a large number of arrows into the air, to land at the target after a short delay.\",\"quality\":\"\"}"
+},{
+  "Cleave":"{\"nom\":\"Cleave\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"The character swings their weapon (or both weapons if dual wielding) in an arc towards the target. Also does damage to other nearby monsters. Only works with Axes and Swords.\",\"quality\":\"\"}"
+},{
+  "Vortex Mine":"{\"nom\":\"Vortex Mine\",\"_type\":\"active\",\"tag\":[\"mine\",\"dexterity\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":0,\"description\":\".\",\"quality\":\"\"}"
+},{
+  "Tempest Shield":"{\"nom\":\"Tempest Shield\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"lightning\",\"chaining\",\"duration\"],\"requiertLevel\":16,\"description\":\"Enchants your shield with the power of storms, which lashes out to deal arcing lightning damage to attackers when you block them. Blocking refreshes the duration of Tempest Shield.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Lightning Arrow":"{\"nom\":\"Lightning Arrow\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"area\",\"lightning\",\"bow\"],\"requiertLevel\":12,\"description\":\"Fires a charged arrow at the target, causing them to be struck by a bolt of lightning which damages nearby enemies.\",\"quality\":\"\"}"
+},{
+  "Minion and Totem Elemental Resistance Support":"{\"nom\":\"Minion and Totem Elemental Resistance Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\",\"minion\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Discipline":"{\"nom\":\"Discipline\",\"_type\":\"active\",\"tag\":[\"aura\",\"intelligence\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":0,\"description\":\"Casts an aura that grants energy shield to you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "Vaal Sweep":"{\"nom\":\"Vaal Sweep\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"vaal\",\"attack\",\"area\",\"melee\"],\"requiertLevel\":12,\"description\":\"Repeatedly swings a staff or a two-handed axe or mace in a circle, knocking back monsters away from the character.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Creates a Lesser Shrine, which will grant a bonus when touched. The Lesser Shrine will disappear after a short duration, or when used. This skill starts on cooldown.\",\"quality\":\"\"}"
+},{
+  "Power Siphon":"{\"nom\":\"Power Siphon\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"attack\",\"projectile\"],\"requiertLevel\":12,\"description\":\"Fires your wand, dealing increased damage and granting you a power charge if an enemy is killed by, or soon after, the hit.\",\"quality\":\"\"}"
+},{
+  "Detonate Dead":"{\"nom\":\"Detonate Dead\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"cast\",\"area\",\"fire\"],\"requiertLevel\":4,\"description\":\"Explodes an unused corpse, dealing fire damage to nearby enemies.\",\"quality\":\"\"}"
+},{
+  "Devouring Totem":"{\"nom\":\"Devouring Totem\",\"_type\":\"active\",\"tag\":[\"totem\",\"strength\",\"active_skill\",\"spell\",\"duration\"],\"requiertLevel\":4,\"description\":\"Summons a totem that can consume nearby corpses. If you are hurt, it will destroy a corpse to leech life to you.\",\"quality\":\"\"}"
+},{
+  "New Shock Nova":"{\"nom\":\"New Shock Nova\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"lightning\"],\"requiertLevel\":28,\"description\":\"Casts a ring of Lightning around you, followed by a larger Lightning nova. Each effect hits enemies caught in their area with Lightning Damage.\",\"quality\":\"\"}"
+},{
+  "Less Duration Support":"{\"nom\":\"Less Duration Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\",\"duration\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Increased Critical Strikes Support":"{\"nom\":\"Increased Critical Strikes Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Viper Strike":"{\"nom\":\"Viper Strike\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"duration\",\"melee\",\"chaos\"],\"requiertLevel\":0,\"description\":\"Hits the enemy, adding some of your physical damage as chaos damage and applying poison. Requires a claw, dagger or sword.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Fire a nova of icy projectiles.\",\"quality\":\"\"}"
+},{
+  "Lightning Penetration Support":"{\"nom\":\"Lightning Penetration Support\",\"_type\":\"support\",\"tag\":[\"lightning\",\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Skeletal Chains":"{\"nom\":\"Skeletal Chains\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":0,\"description\":\"Fires a one-off beam that chains between your skeletons.\",\"quality\":\"\"}"
+},{
+  "Warlord's Mark":"{\"nom\":\"Warlord's Mark\",\"_type\":\"active\",\"tag\":[\"curse\",\"strength\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, making them more vulnerable to stuns. Hitting the cursed targets will leech life and mana, and killing them will result in a chance to gain an endurance charge.\",\"quality\":\"\"}"
+},{
+  "Projectile Weakness":"{\"nom\":\"Projectile Weakness\",\"_type\":\"active\",\"tag\":[\"curse\",\"dexterity\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, making them easier to pierce and to knock back, and increasing the damage they take from projectiles.\",\"quality\":\"\"}"
+},{
+  "Endurance Charge on Melee Stun Support":"{\"nom\":\"Endurance Charge on Melee Stun Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\",\"melee\",\"attack\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Riposte":"{\"nom\":\"Riposte\",\"_type\":\"active\",\"tag\":[\"trigger\",\"dexterity\",\"active_skill\",\"attack\",\"melee\"],\"requiertLevel\":0,\"description\":\"Perform a deadly counter-attack when you block. Uses both weapons while you're dual wielding.\",\"quality\":\"damage_+% 1000\"}"
+},{
+  "Melee Physical Damage Support":"{\"nom\":\"Melee Physical Damage Support\",\"_type\":\"support\",\"tag\":[\"melee\",\"strength\",\"support\",\"attack\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Wither":"{\"nom\":\"Wither\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\",\"chaos\",\"channelling\"],\"requiertLevel\":10,\"description\":\"Casts a debilitating effect on enemies in an area, Hindering their movement and applying a stacking debuff that increases the Chaos Damage they take. This effect can stack up to 20 times.\",\"quality\":\"\"}"
+},{
+  "Leap Slam":"{\"nom\":\"Leap Slam\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"area\",\"movement\",\"melee\"],\"requiertLevel\":0,\"description\":\"Jump into the air, damaging enemies (and knocking back some) with your main hand where you land. Enemies you would land on are pushed out of the way. Requires an axe, mace, sword or staff.\",\"quality\":\"\"}"
+},{
+  "Blood Rage":"{\"nom\":\"Blood Rage\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"spell\",\"duration\"],\"requiertLevel\":16,\"description\":\"Adds a buff that deals Physical Damage over time, while increasing Attack Speed and Life Leech. Killing an enemy while this buff is active refreshes the buff duration, and can grant a Frenzy Charge.\",\"quality\":\"attack_speed_+% 250\"}"
+},{
+  "Item Quantity Support":"{\"nom\":\"Item Quantity Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Deals a portion of your main hand damage in an area around you and creates Consecrated Ground, causing you and your allies to regenerate life.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Void Manipulation Support":"{\"nom\":\"Void Manipulation Support\",\"_type\":\"support\",\"tag\":[\"chaos\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Puncture":"{\"nom\":\"Puncture\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"duration\",\"melee\",\"bow\"],\"requiertLevel\":0,\"description\":\"Punctures the target, causing a bleeding debuff. While bleeding, they take damage over time based on how much damage was dealt in the initial hit. The bleeding deals more damage while they move. Puncture works with bows, daggers, claws or swords.\",\"quality\":\"\"}"
+},{
+  "Shrapnel Shot":"{\"nom\":\"Shrapnel Shot\",\"_type\":\"active\",\"tag\":[\"lightning\",\"dexterity\",\"active_skill\",\"attack\",\"area\",\"bow\"],\"requiertLevel\":1,\"description\":\"Fires an arrow that pierces through enemies. Arrows are fired with such force that they create a burst of lightning, damaging all enemies in a cone in front of the archer.\",\"quality\":\"\"}"
+},{
+  "Vortex":"{\"nom\":\"Vortex\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"cold\",\"duration\"],\"requiertLevel\":28,\"description\":\"An icy blast explodes around the caster, dealing cold damage to enemies, and leaving behind a whirling vortex that continues to deal cold damage over time and chill enemies caught in it. If the caster targets near one of their Frostbolt projectiles, it will explode from the projectile instead, destroying it.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Releases a nova of fire around you, damaging nearby enemies.\",\"quality\":\"\"}"
+},{
+  "Vaal Clarity":"{\"nom\":\"Vaal Clarity\",\"_type\":\"active\",\"tag\":[\"aura\",\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":0,\"description\":\"Casts a temporary aura that lets you and your allies cast skills without paying their mana costs.\",\"quality\":\"\"}"
+},{
+  "Detonate Mines":"{\"nom\":\"Detonate Mines\",\"_type\":\"active\",\"tag\":[\"low_max_level\",\"active_skill\",\"spell\"],\"requiertLevel\":0,\"description\":\"Detonates all the Remote Mines you have placed.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Creates an area of Consecrated Ground, providing life regeneration for you and allies who stand in it.\",\"quality\":\"\"}"
+},{
+  "Blasphemy Support":"{\"nom\":\"Blasphemy Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\",\"curse\",\"aura\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"curse_effect_+% 500\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Repeatedly fires a piercing projectile based on your weapon, converting some physical damage to fire. The projectiles form an arc in front of you.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Release an arc of force from your weapon or fists, damaging enemies in front of you.\",\"quality\":\"\"}"
+},{
+  "Rejuvenation Totem":"{\"nom\":\"Rejuvenation Totem\",\"_type\":\"active\",\"tag\":[\"totem\",\"aura\",\"strength\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":4,\"description\":\"Summons a totem that has an aura which regenerates life for you and your nearby allies.\",\"quality\":\"\"}"
+},{
+  "Haste":"{\"nom\":\"Haste\",\"_type\":\"active\",\"tag\":[\"aura\",\"dexterity\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":0,\"description\":\"Casts an aura that increases the movement speed, attack speed and cast speed of you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "Arctic Armour":"{\"nom\":\"Arctic Armour\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"spell\",\"duration\",\"cold\"],\"requiertLevel\":0,\"description\":\"Summons an icy barrier that chills enemies when they hit you. You drop chilled ground while moving, and take less Fire and Physical damage while stationary.\",\"quality\":\"skill_effect_duration_+% 1000\"}"
+},{
+  "Trap and Mine Damage Support":"{\"nom\":\"Trap and Mine Damage Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"trap\",\"mine\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Ancestral Blademaster":"{\"nom\":\"Ancestral Blademaster\",\"_type\":\"active\",\"tag\":[\"totem\",\"strength\",\"active_skill\",\"attack\",\"duration\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "...":"{\"nom\":\"...\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"melee\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"A bolt of lightning strikes an area, dealing lightning damage.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "WIP Support":"{\"nom\":\"WIP Support\",\"_type\":\"support\",\"tag\":[\"support\",\"curse\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Enlighten Support":"{\"nom\":\"Enlighten Support\",\"_type\":\"support\",\"tag\":[\"low_max_level\",\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Ancestral Warchief":"{\"nom\":\"Ancestral Warchief\",\"_type\":\"active\",\"tag\":[\"totem\",\"strength\",\"active_skill\",\"attack\",\"duration\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"Summons an Ancestor Totem that will attack enemies with a powerful main hand slam while you stand close to it. Being near it grants you more melee damage.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Cast while Channelling Support":"{\"nom\":\"Cast while Channelling Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\",\"channelling\",\"spell\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Physical Projectile Attack Damage Support":"{\"nom\":\"Physical Projectile Attack Damage Support\",\"_type\":\"support\",\"tag\":[\"projectile\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Dual Strike":"{\"nom\":\"Dual Strike\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"melee\"],\"requiertLevel\":0,\"description\":\"Attacks with both weapons, dealing the damage of both in one strike. Dual wield only. Does not work with wands.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Release a fire nova when you kill an enemy.\",\"quality\":\"\"}"
+},{
+  "Vaal Cold Snap":"{\"nom\":\"Vaal Cold Snap\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"duration\",\"cold\"],\"requiertLevel\":0,\"description\":\"A sequence of ice crystals erupts from the ground around the caster, damaging enemies and leaving the ground chilled.\",\"quality\":\"\"}"
+},{
+  "Summon Ice Golem":"{\"nom\":\"Summon Ice Golem\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"cold\",\"minion\",\"spell\",\"golem\"],\"requiertLevel\":34,\"description\":\"Summons an Ice Golem that grants you increased Critical Strike Chance and Accuracy. The Ice Golem can use an icy barrage spell and a chilling spinning dash in addition to its melee attack.\",\"quality\":\"minion_maximum_life_+% 1000\\nminion_damage_+% 1000\"}"
+},{
+  "Life Gain on Hit Support":"{\"nom\":\"Life Gain on Hit Support\",\"_type\":\"support\",\"tag\":[\"attack\",\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Summon Raging Spirit":"{\"nom\":\"Summon Raging Spirit\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"minion\",\"duration\",\"fire\"],\"requiertLevel\":4,\"description\":\"Summons a short-lived flaming skull that rushes at nearby enemies and attacks them rapidly. Enemies will not directly engage these spirits, and can pass through them.\",\"quality\":\"\"}"
+},{
+  "Burning Arrow":"{\"nom\":\"Burning Arrow\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"fire\",\"bow\"],\"requiertLevel\":1,\"description\":\"Fires an arrow that deals fire damage to its target and has an increased chance of igniting it.\",\"quality\":\"\"}"
+},{
+  "Summon Skeletons":"{\"nom\":\"Summon Skeletons\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"minion\",\"duration\"],\"requiertLevel\":10,\"description\":\"Summons slow moving skeletal minions that decay over time. Does not require a corpse to be consumed.\",\"quality\":\"\"}"
+},{
+  "Mana Leech Support":"{\"nom\":\"Mana Leech Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"While you run, this skill creates a small explosion with each step, dealing fire damage in an area around you.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Greater Multiple Projectiles Support":"{\"nom\":\"Greater Multiple Projectiles Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"projectile\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Vaal Ground Slam":"{\"nom\":\"Vaal Ground Slam\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"vaal\",\"attack\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"The character slams the ground with their main hand weapon, creating a wave that travels in all directions and damages enemies. Only works with Staves or Maces.\",\"quality\":\"\"}"
+},{
+  "Shadow Blades":"{\"nom\":\"Shadow Blades\",\"_type\":\"active\",\"tag\":[\"projectile\",\"dexterity\",\"active_skill\",\"spell\"],\"requiertLevel\":1,\"description\":\"WIP\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Icy bolts rain down over the targeted area. They explode when landing, dealing damage to nearby enemies and chilling them, as well as causing patches of chilled ground. Skill damage is based on Intelligence.\",\"quality\":\"\"}"
+},{
+  "Minion Damage Support":"{\"nom\":\"Minion Damage Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\",\"minion\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Chance to Flee Support":"{\"nom\":\"Chance to Flee Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Deals a portion of your main hand damage in an area around you and creates Consecrated Ground, causing you and your allies to regenerate life.\",\"quality\":\"\"}"
+},{
+  "Decoy Totem":"{\"nom\":\"Decoy Totem\",\"_type\":\"active\",\"tag\":[\"totem\",\"strength\",\"active_skill\",\"spell\",\"duration\",\"area\"],\"requiertLevel\":4,\"description\":\"Summons a totem that taunts nearby monsters to attack it.\",\"quality\":\"totem_life_+% 1000\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Bone Offering":"{\"nom\":\"Bone Offering\",\"_type\":\"active\",\"tag\":[\"minion\",\"intelligence\",\"active_skill\",\"spell\",\"duration\"],\"requiertLevel\":12,\"description\":\"Consumes a corpse, granting all of your minions the power to block both attacks and spells. The skill consumes other nearby corpses, increasing the duration for each corpse consumed.\",\"quality\":\"\"}"
+},{
+  "Reave":"{\"nom\":\"Reave\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"Attacks a small area in front of you. Each Reave that hits an enemy increases the area of effect. The area is reset after a short period without hitting anything. Only works with Daggers, Claws, and One-Handed Swords.\",\"quality\":\"\"}"
+},{
+  "Snipe":"{\"nom\":\"Snipe\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"bow\"],\"requiertLevel\":0,\"description\":\"Fires an arrow at a target which deals high damage and always hits. The attack is slow and interruptable. It discharges frenzy charges by increasing the attack speed.\",\"quality\":\"\"}"
+},{
+  "Glacial Cascade":"{\"nom\":\"Glacial Cascade\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"cold\"],\"requiertLevel\":28,\"description\":\"Icicles emerge from the ground in a series of small bursts, each damaging enemies caught in the area.\",\"quality\":\"\"}"
+},{
+  "Sunder":"{\"nom\":\"Sunder\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"Slams the ground with your main hand weapon, creating a wave of broken ground that damages enemies in an area in front of you. Enemies hit by the wave will release a circular shockwave, dealing damage to other enemies around them. Requires a Mace, Axe, or Staff.\",\"quality\":\"\"}"
+},{
+  "Elemental Hit":"{\"nom\":\"Elemental Hit\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"melee\",\"fire\",\"cold\",\"lightning\",\"bow\"],\"requiertLevel\":1,\"description\":\"A standard attack (with any weapon) that adds damage of a random element.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Release an arc of force from your weapon or fists, damaging enemies in front of you.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Summons a spectral wolf companion that attacks near by enemies and dies after a duration.\",\"quality\":\"\"}"
+},{
+  "Bear Trap":"{\"nom\":\"Bear Trap\",\"_type\":\"active\",\"tag\":[\"trap\",\"dexterity\",\"active_skill\",\"duration\",\"cast\"],\"requiertLevel\":4,\"description\":\"Throws a trap that damages and immobilises a single enemy.\",\"quality\":\"physical_damage_+% 1000\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Drops a meteor from above on a nearby foe, dealing fire damage in an area around them.\",\"quality\":\"\"}"
+},{
+  "Frost Wall":"{\"nom\":\"Frost Wall\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"duration\",\"cold\"],\"requiertLevel\":4,\"description\":\"Creates a wall of ice which holds back enemies. Targets under the wall are damaged and pushed back.\",\"quality\":\"skill_effect_duration_+% 1000\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Releases a nova of projectiles based on your weapon, leaving chilling ground in their wake.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Summons three icy skull minions that explode at the end of their duration.\",\"quality\":\"\"}"
+},{
+  "Lesser Multiple Projectiles Support":"{\"nom\":\"Lesser Multiple Projectiles Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"projectile\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Fireball":"{\"nom\":\"Fireball\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"fire\"],\"requiertLevel\":1,\"description\":\"Unleashes a ball of fire towards a target which explodes, damaging nearby foes.\",\"quality\":\"\"}"
+},{
+  "Sweep":"{\"nom\":\"Sweep\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"Swings a two handed melee weapon in a circle, knocking back some monsters around the character.\",\"quality\":\"\"}"
+},{
+  "Temporal Chains":"{\"nom\":\"Temporal Chains\",\"_type\":\"active\",\"tag\":[\"curse\",\"dexterity\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, Slowing them, and making effects on them expire more slowly.\",\"quality\":\"\"}"
+},{
+  "Scorching Ray":"{\"nom\":\"Scorching Ray\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"fire\",\"duration\",\"channelling\"],\"requiertLevel\":12,\"description\":\"Unleash a beam of fire that burns enemies it touches, and decreases their fire resistance. Remaining in the beam intensifies the burning, adding a portion of the beam's damage in stages. Enemies who leave the beam continue to burn for a duration. Increasing cast speed also increases the rate at which the beam can turn.\",\"quality\":\"\"}"
+},{
+  "Backstab":"{\"nom\":\"Backstab\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"melee\"],\"requiertLevel\":0,\"description\":\"A dagger skill that deals a critical strike and additional damage to an enemy if the attack is made from behind the enemy. Has high mana cost and cooldown\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Charges you with lightning which lasts a duration before unleashing, damaging surrounding enemies.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Punishment":"{\"nom\":\"Punishment\",\"_type\":\"active\",\"tag\":[\"curse\",\"strength\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, causing them to grant a buff to anyone they hit with melee attacks. The buff grants more Melee Damage and increased Attack Speed.\",\"quality\":\"\"}"
+},{
+  "Immortal Call":"{\"nom\":\"Immortal Call\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"spell\",\"duration\"],\"requiertLevel\":34,\"description\":\"Discharges Endurance Charges, making the character invulnerable to physical damage for a short time, proportional to how many endurance charges were expended.\",\"quality\":\"base_cast_speed_+% 2000\"}"
+},{
+  "Cold Snap":"{\"nom\":\"Cold Snap\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"cold\"],\"requiertLevel\":4,\"description\":\"Ice crystals protrude from the ground at target location. Monsters in this area take damage and become frozen. The cooldown can be bypassed by expending a Power Charge.\",\"quality\":\"base_skill_area_of_effect_+% 500\"}"
+},{
+  "Storm Burst":"{\"nom\":\"Storm Burst\",\"_type\":\"active\",\"tag\":[\"projectile\",\"area\",\"intelligence\",\"active_skill\",\"spell\",\"lightning\",\"channelling\"],\"requiertLevel\":28,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Abyssal Cry":"{\"nom\":\"Abyssal Cry\",\"_type\":\"active\",\"tag\":[\"warcry\",\"strength\",\"active_skill\",\"area\",\"duration\",\"chaos\"],\"requiertLevel\":34,\"description\":\"Performs a warcry, Hindering nearby enemies and causing them to explode when killed. The hinder effect is increased by surrounding enemies. Taunts all nearby enemies to attack the user. Shares a cooldown with other Warcry skills.\",\"quality\":\"skill_effect_duration_+% 1000\"}"
+},{
+  "Curse On Hit Support":"{\"nom\":\"Curse On Hit Support\",\"_type\":\"support\",\"tag\":[\"curse\",\"trigger\",\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Summons three invulnerable spectral skulls that rush at nearby enemies and attack them rapidly. Enemies will not engage these spirits, and can pass through them.\",\"quality\":\"\"}"
+},{
+  "Vaal Lightning Strike":"{\"nom\":\"Vaal Lightning Strike\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"vaal\",\"attack\",\"melee\",\"duration\",\"lightning\"],\"requiertLevel\":0,\"description\":\"Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy is forced into the enemy as you strike, electrically charging them for a duration, during which lightning will arc between them and other nearby enemies, dealing damage. This occurs even if the attack is dodged.\",\"quality\":\"\"}"
+},{
+  "Cast on Death Support":"{\"nom\":\"Cast on Death Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"spell\",\"trigger\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Damaging cones of lightning surround you.\",\"quality\":\"\"}"
+},{
+  "Fire Nova Mine":"{\"nom\":\"Fire Nova Mine\",\"_type\":\"active\",\"tag\":[\"area\",\"mine\",\"intelligence\",\"active_skill\",\"spell\",\"fire\",\"duration\"],\"requiertLevel\":12,\"description\":\"Lay a remote mine that you can detonate to create a series of fire novas. Each sequential nova from the same mine will do higher damage than the previous.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Cluster Traps Support":"{\"nom\":\"Cluster Traps Support\",\"_type\":\"support\",\"tag\":[\"trap\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Lightning Trap":"{\"nom\":\"Lightning Trap\",\"_type\":\"active\",\"tag\":[\"projectile\",\"trap\",\"intelligence\",\"active_skill\",\"spell\",\"duration\",\"lightning\"],\"requiertLevel\":12,\"description\":\"Throws a trap that launches a ring of projectiles through the enemy that set it off, dealing lightning damage to them and subsequent targets.\",\"quality\":\"trap_throwing_speed_+% 500\"}"
+},{
+  "Faster Attacks Support":"{\"nom\":\"Faster Attacks Support\",\"_type\":\"support\",\"tag\":[\"attack\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Blade Flurry":"{\"nom\":\"Blade Flurry\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"area\",\"channelling\",\"melee\"],\"requiertLevel\":0,\"description\":\"Repeatedly strike at enemies in a circle in front of you while channelling, dealing damage to and around the struck enemy. The damage is continually boosted while channelling. You unleash an additional strike for each stage reached once the channelling ends. Requires a Dagger, Claw or One-Handed Sword.\",\"quality\":\"\"}"
+},{
+  "Vaal Molten Shell":"{\"nom\":\"Vaal Molten Shell\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"duration\",\"fire\"],\"requiertLevel\":0,\"description\":\"Summons fiery elemental shields providing additional armour for a short duration. Whenever you prevent any amount of physical damage from a hit, the shields cause a burst of flame, dealing fire damage to surrounding enemies.\",\"quality\":\"\"}"
+},{
+  "Fire Weapon":"{\"nom\":\"Fire Weapon\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"duration\",\"fire\"],\"requiertLevel\":0,\"description\":\"Infuse the player's current weapon with additional fire damage for a short time.\",\"quality\":\"\"}"
+},{
+  "Touch of God":"{\"nom\":\"Touch of God\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"area\",\"lightning\",\"melee\",\"bow\"],\"requiertLevel\":31,\"description\":\"THE LIGHT OF DIVINITY\",\"quality\":\"\"}"
+},{
+  "Power Charge On Critical Support":"{\"nom\":\"Power Charge On Critical Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Riptide":"{\"nom\":\"Riptide\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"cold\"],\"requiertLevel\":28,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Purity of Fire":"{\"nom\":\"Purity of Fire\",\"_type\":\"active\",\"tag\":[\"aura\",\"strength\",\"active_skill\",\"spell\",\"area\",\"fire\"],\"requiertLevel\":0,\"description\":\"Casts an aura that grants fire resistance to you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "Determination":"{\"nom\":\"Determination\",\"_type\":\"active\",\"tag\":[\"aura\",\"strength\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":0,\"description\":\"Casts an aura that grants armour to you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "Icefire":"{\"nom\":\"Icefire\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":1,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Explosive Arrow":"{\"nom\":\"Explosive Arrow\",\"_type\":\"active\",\"tag\":[\"fire\",\"dexterity\",\"active_skill\",\"attack\",\"area\",\"duration\",\"bow\"],\"requiertLevel\":28,\"description\":\"Fires an arrow which acts as a short duration fuse. Applying additional arrows to an enemy extends the duration. When the target dies or the fuses expire, the arrows explode, dealing fire AoE damage to nearby enemies. The AoE radius is proportional to the number of arrows upon death.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Whirling Blades":"{\"nom\":\"Whirling Blades\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"movement\",\"melee\"],\"requiertLevel\":0,\"description\":\"Dive through enemies, dealing weapon damage. Only works with daggers, claws and one handed swords.\",\"quality\":\"\"}"
+},{
+  "Vaal Flameblast":"{\"nom\":\"Vaal Flameblast\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"fire\"],\"requiertLevel\":0,\"description\":\"Targets an area and builds up a large explosion. The build-up speed is based on cast speed. The explosion occurs after it reaches 10 stacks.\",\"quality\":\"\"}"
+},{
+  "Poison Support":"{\"nom\":\"Poison Support\",\"_type\":\"support\",\"tag\":[\"chaos\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Raise Spectre":"{\"nom\":\"Raise Spectre\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"minion\"],\"requiertLevel\":28,\"description\":\"Raises a spectral version of a defeated foe as a minion to fight for you in battle.\",\"quality\":\"\"}"
+},{
+  "Flame Dash":"{\"nom\":\"Flame Dash\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"movement\",\"duration\",\"fire\"],\"requiertLevel\":10,\"description\":\"Teleport to a location, damaging enemies and leaving a trail of burning ground in your wake.\",\"quality\":\"base_cast_speed_+% 500\"}"
+},{
+  "Split Arrow":"{\"nom\":\"Split Arrow\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"bow\"],\"requiertLevel\":1,\"description\":\"Fires multiple arrows at different targets.\",\"quality\":\"\"}"
+},{
+  "Desecrate":"{\"nom\":\"Desecrate\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"spell\",\"area\",\"duration\",\"chaos\"],\"requiertLevel\":16,\"description\":\"Desecrates the ground, summoning corpses and dealing chaos damage to all enemies in the area.\",\"quality\":\"base_cast_speed_+% 1000\"}"
+},{
+  "Vaal Rain of Arrows":"{\"nom\":\"Vaal Rain of Arrows\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"vaal\",\"attack\",\"area\",\"duration\",\"bow\"],\"requiertLevel\":0,\"description\":\"Fires a large number of arrows into the air, to land at the target after a short delay. Enemies hit by the arrows are pinned in place, unable to move for a time.\",\"quality\":\"\"}"
+},{
+  "Purity of Ice":"{\"nom\":\"Purity of Ice\",\"_type\":\"active\",\"tag\":[\"aura\",\"dexterity\",\"active_skill\",\"spell\",\"area\",\"cold\"],\"requiertLevel\":0,\"description\":\"Casts an aura that grants cold resistance to you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "Blade Trap":"{\"nom\":\"Blade Trap\",\"_type\":\"active\",\"tag\":[\"active_skill\",\"attack\",\"area\",\"melee\",\"bow\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Raise Zombie":"{\"nom\":\"Raise Zombie\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"minion\"],\"requiertLevel\":1,\"description\":\"Raises a zombie minion from a corpse, which will follow you and attack enemies with a melee attack and an area of effect slam.\",\"quality\":\"\"}"
+},{
+  "Ice Crash":"{\"nom\":\"Ice Crash\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"area\",\"cold\",\"melee\"],\"requiertLevel\":0,\"description\":\"Slam the ground with your main hand weapon, damaging enemies in an area around the impact in three stages. Enemies take slightly less damage on the second and third stage. Works with Swords, Maces, Axes, Staves and Unarmed. Cannot be used with Multistrike.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Creates a patch of Shocked Ground in a radius around you.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Enfeeble":"{\"nom\":\"Enfeeble\",\"_type\":\"active\",\"tag\":[\"curse\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, making their attacks and spells less effective.\",\"quality\":\"\"}"
+},{
+  "Cyclone":"{\"nom\":\"Cyclone\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"area\",\"movement\",\"melee\"],\"requiertLevel\":0,\"description\":\"Damage enemies around you, then perform a spinning series of attacks as you travel to a target location.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Orb of Storms":"{\"nom\":\"Orb of Storms\",\"_type\":\"active\",\"tag\":[\"lightning\",\"intelligence\",\"active_skill\",\"spell\",\"duration\",\"area\",\"chaining\"],\"requiertLevel\":4,\"description\":\"Creates a stationary electrical orb that frequently unleashes a splitting bolt of lightning at a nearby enemy. Using another lightning skill while inside the orb's cloud unleashes additional bolts. Casting this skill again will replace the previous orb. You can only cast this spell yourself, directly.\",\"quality\":\"lightning_damage_+% 1000\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Arc":"{\"nom\":\"Arc\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"chaining\",\"lightning\"],\"requiertLevel\":12,\"description\":\"An arc of lightning stretches from the caster to a targeted nearby enemy and chains on to additional targets.\",\"quality\":\"\"}"
+},{
+  "Spell Echo Support":"{\"nom\":\"Spell Echo Support\",\"_type\":\"support\",\"tag\":[\"spell\",\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"This attack is performed repeatedly by a ghostly imitation of your weapon.\",\"quality\":\"\"}"
+},{
+  "Caustic Arrow":"{\"nom\":\"Caustic Arrow\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"area\",\"duration\",\"chaos\",\"bow\"],\"requiertLevel\":4,\"description\":\"Fires an arrow which deals additional chaos damage to enemies it hits, and creates a caustic cloud. Enemies in the cloud take chaos damage over time.\",\"quality\":\"\"}"
+},{
+  "Herald of Ash":"{\"nom\":\"Herald of Ash\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"spell\",\"area\",\"fire\"],\"requiertLevel\":0,\"description\":\"Channel fire through your hands, adding fire to your physical damage. If you kill an enemy with an attack, other enemies near them will be ignited for the overkill damage.\",\"quality\":\"herald_of_ash_fire_damage_+% 750\"}"
+},{
+  "Ranged Attack Totem Support":"{\"nom\":\"Ranged Attack Totem Support\",\"_type\":\"support\",\"tag\":[\"bow\",\"projectile\",\"strength\",\"support\",\"totem\",\"attack\",\"duration\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Ice Nova":"{\"nom\":\"Ice Nova\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"cold\"],\"requiertLevel\":12,\"description\":\"A chilling circle of ice expands from the caster. If the caster targets near one of their Frostbolt projectiles, it will expand from the projectile instead.\",\"quality\":\"\"}"
+},{
+  "Point Blank Support":"{\"nom\":\"Point Blank Support\",\"_type\":\"support\",\"tag\":[\"projectile\",\"attack\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Launch molten projectiles from the point of impact, causing AoE attack damage to enemies where they land.\",\"quality\":\"\"}"
+},{
+  "Vaal Power Siphon":"{\"nom\":\"Vaal Power Siphon\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"vaal\",\"attack\",\"projectile\"],\"requiertLevel\":0,\"description\":\"Fires your wand simultaneously at all nearby enemies, culling those close to death and granting you a power charge for each.\",\"quality\":\"\"}"
+},{
+  "Conversion Trap":"{\"nom\":\"Conversion Trap\",\"_type\":\"active\",\"tag\":[\"trap\",\"intelligence\",\"active_skill\",\"spell\",\"duration\"],\"requiertLevel\":4,\"description\":\"Throws a trap that, when triggered by an enemy, converts that enemy to your side for a short duration. Does not affect unique monsters or players.\",\"quality\":\"skill_effect_duration_+% 1000\"}"
+},{
+  "NewPunishment":"{\"nom\":\"NewPunishment\",\"_type\":\"active\",\"tag\":[\"curse\",\"strength\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, causing them to grant a buff to anyone they hit with melee attacks. The buff grants more Melee Damage and increased Attack Speed.\",\"quality\":\"\"}"
+},{
+  "Blight":"{\"nom\":\"Blight\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"chaos\",\"area\",\"channelling\",\"duration\"],\"requiertLevel\":1,\"description\":\"Apply a debuff to enemies in front of you which deals chaos damage over time. Enemies who aren't already debuffed by Blight are also hindered for a shorter secondary duration, slowing their movement. Continued channelling adds layers of damage to the debuff, each with their own duration.\",\"quality\":\"\"}"
+},{
+  "Iron Will Support":"{\"nom\":\"Iron Will Support\",\"_type\":\"support\",\"tag\":[\"spell\",\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Releases a nova of projectiles based on your weapon, leaving chilling ground in their wake.\",\"quality\":\"\"}"
+},{
+  "Fortify Support":"{\"nom\":\"Fortify Support\",\"_type\":\"support\",\"tag\":[\"attack\",\"strength\",\"support\",\"melee\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Deals a portion of your main hand damage in an area around you and creates Consecrated Ground, causing you and your allies to regenerate life.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Summon Chaos Golem":"{\"nom\":\"Summon Chaos Golem\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"chaos\",\"minion\",\"spell\",\"golem\"],\"requiertLevel\":34,\"description\":\"Summons a Chaos Golem that grants you Physical Damage Reduction. The Chaos Golem can use a damage over time Chaos aura and a cascade of Chaos spikes in addition to its melee attack.\",\"quality\":\"minion_maximum_life_+% 1000\\nminion_damage_+% 1000\"}"
+},{
+  "Vaal Ice Nova":"{\"nom\":\"Vaal Ice Nova\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"cold\"],\"requiertLevel\":0,\"description\":\"A chilling circle of ice expands from the caster, repeating from every enemy it hits. If the caster targets near one of their Frostbolt projectiles, it will expand from the projectile instead.\",\"quality\":\"\"}"
+},{
+  "Rallying Cry":"{\"nom\":\"Rallying Cry\",\"_type\":\"active\",\"tag\":[\"warcry\",\"strength\",\"active_skill\",\"area\",\"duration\"],\"requiertLevel\":10,\"description\":\"Performs a warcry, granting increased damage and mana regeneration to you and your allies if there are nearby enemies. The damage increase is scaled by surrounding enemies. Taunts all nearby enemies to attack the user. Shares a cooldown with other Warcry skills.\",\"quality\":\"skill_effect_duration_+% 1500\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Drops a meteor from above on a nearby foe, dealing fire damage in an area around them.\",\"quality\":\"\"}"
+},{
+  "Vaal Grace":"{\"nom\":\"Vaal Grace\",\"_type\":\"active\",\"tag\":[\"aura\",\"dexterity\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":0,\"description\":\"Casts a temporary aura that grants you and your allies the ability to dodge attacks and spells.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Creates a clone of you that attacks with your weapon.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Unleashes an icy projectile that pulses with cold as it travels.\",\"quality\":\"\"}"
+},{
+  "Searing Bond":"{\"nom\":\"Searing Bond\",\"_type\":\"active\",\"tag\":[\"totem\",\"strength\",\"active_skill\",\"spell\",\"duration\",\"fire\"],\"requiertLevel\":12,\"description\":\"Summons a totem that casts a beam of fire at you and each other totem you control, dealing burning damage to enemies caught in the beam. Enemies near either end of a beam also suffer burning damage.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Flesh Offering":"{\"nom\":\"Flesh Offering\",\"_type\":\"active\",\"tag\":[\"minion\",\"intelligence\",\"active_skill\",\"spell\",\"duration\"],\"requiertLevel\":12,\"description\":\"Consumes a corpse, which temporarily empowers your minions with swiftness. The skill consumes other nearby corpses, increasing the duration for each corpse consumed.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Release a lightning charged spinning copy of your weapon or its projectiles that rotates around a point, damaging enemies in an area.\",\"quality\":\"\"}"
+},{
+  "Slower Projectiles Support":"{\"nom\":\"Slower Projectiles Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"projectile\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"This attack is performed repeatedly by a ghostly imitation of your weapon.\",\"quality\":\"\"}"
+},{
+  "Wand Teleport":"{\"nom\":\"Wand Teleport\",\"_type\":\"active\",\"tag\":[\"active_skill\",\"spell\",\"movement\"],\"requiertLevel\":0,\"description\":\"Fires a projectile and teleports you in the opposite direction\",\"quality\":\"\"}"
+},{
+  "Earthquake":"{\"nom\":\"Earthquake\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"area\",\"duration\",\"melee\"],\"requiertLevel\":0,\"description\":\"Smashes the ground with an Axe, Mace or Staff, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a short duration. Earthquakes created before the first one has erupted will not generate their own aftershocks.\",\"quality\":\"\"}"
+},{
+  "Frostbite":"{\"nom\":\"Frostbite\",\"_type\":\"active\",\"tag\":[\"curse\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\",\"cold\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, making them less resistant to cold damage and giving them a chance to be frozen by cold damage.\",\"quality\":\"\"}"
+},{
+  "Iron Grip Support":"{\"nom\":\"Iron Grip Support\",\"_type\":\"support\",\"tag\":[\"projectile\",\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Grace":"{\"nom\":\"Grace\",\"_type\":\"active\",\"tag\":[\"aura\",\"dexterity\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":0,\"description\":\"Casts an aura that grants evasion to you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "Mirror Arrow":"{\"nom\":\"Mirror Arrow\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"minion\",\"duration\",\"bow\"],\"requiertLevel\":10,\"description\":\"Fires an arrow at the target destination. When the arrow lands, a clone is summoned. The clone is a minion that uses your bow and quiver.\",\"quality\":\"base_arrow_speed_+% 1500\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Purity of Lightning":"{\"nom\":\"Purity of Lightning\",\"_type\":\"active\",\"tag\":[\"aura\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"lightning\"],\"requiertLevel\":0,\"description\":\"Casts an aura that grants lightning resistance to you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "Block Chance Reduction Support":"{\"nom\":\"Block Chance Reduction Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Discharge":"{\"nom\":\"Discharge\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"fire\",\"cold\",\"lightning\"],\"requiertLevel\":28,\"description\":\"Discharge all the character's charges to deal elemental damage to all nearby monsters.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Releases a nova of projectiles based on your weapon, leaving chilling ground in their wake.\",\"quality\":\"\"}"
+},{
+  "Wrath":"{\"nom\":\"Wrath\",\"_type\":\"active\",\"tag\":[\"aura\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"lightning\"],\"requiertLevel\":0,\"description\":\"Casts an aura that adds lightning damage to the attacks of you and your allies, and makes your spells deal more lightning damage.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "Vaal Heavy Strike":"{\"nom\":\"Vaal Heavy Strike\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"vaal\",\"attack\",\"melee\"],\"requiertLevel\":1,\"description\":\"Attacks the enemy with a forceful blow, sending them flying backwards. Requires a Mace, Axe, Sword or Two-Handed Weapon.\",\"quality\":\"\"}"
+},{
+  "Incinerate":"{\"nom\":\"Incinerate\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"fire\",\"channelling\"],\"requiertLevel\":12,\"description\":\"Continuously launches a torrent of fire from your hand. The longer you channel this spell, the larger and more damaging the flames become.\",\"quality\":\"\"}"
+},{
+  "Minion Life Support":"{\"nom\":\"Minion Life Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\",\"minion\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Lightning Circle":"{\"nom\":\"Lightning Circle\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"lightning\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Vaal Lightning Warp":"{\"nom\":\"Vaal Lightning Warp\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"duration\",\"lightning\"],\"requiertLevel\":0,\"description\":\"Casts a delayed teleport for nearby enemies to a target destination. When the teleport occurs, lightning damage is dealt to the enemies both before and after they teleport.\",\"quality\":\"\"}"
+},{
+  "Elemental Proliferation Support":"{\"nom\":\"Elemental Proliferation Support\",\"_type\":\"support\",\"tag\":[\"cold\",\"fire\",\"lightning\",\"intelligence\",\"support\",\"area\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Added Lightning Damage Support":"{\"nom\":\"Added Lightning Damage Support\",\"_type\":\"support\",\"tag\":[\"lightning\",\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Release an arc of force from your weapon or fists, damaging enemies in front of you.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Fire Penetration Support":"{\"nom\":\"Fire Penetration Support\",\"_type\":\"support\",\"tag\":[\"fire\",\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Freezing Pulse":"{\"nom\":\"Freezing Pulse\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"cold\"],\"requiertLevel\":1,\"description\":\"An icy projectile which has a chance to freeze enemies it passes through. The projectile fades quickly, reducing damage and freezing chance until it runs out of time and dissipates completely.\",\"quality\":\"\"}"
+},{
+  "Ball Lightning":"{\"nom\":\"Ball Lightning\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"lightning\"],\"requiertLevel\":28,\"description\":\"Fires a slow-moving projectile that periodically damages enemies in an area around it with bolts of lightning.\",\"quality\":\"\"}"
+},{
+  "Frostbolt":"{\"nom\":\"Frostbolt\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"cold\"],\"requiertLevel\":1,\"description\":\"Fires a slow-moving projectile that pierces through enemies, dealing cold damage.\",\"quality\":\"\"}"
+},{
+  "Wild Strike":"{\"nom\":\"Wild Strike\",\"_type\":\"active\",\"tag\":[\"projectile\",\"dexterity\",\"active_skill\",\"attack\",\"melee\",\"lightning\",\"cold\",\"fire\",\"area\",\"chaining\"],\"requiertLevel\":0,\"description\":\"Your melee weapon strikes an enemy, converting some of the damage to a random element. Then, depending on the element chosen, it releases an explosion, an arcing bolt of lightning, or an icy wave.\",\"quality\":\"\"}"
+},{
+  "Vaal Haste":"{\"nom\":\"Vaal Haste\",\"_type\":\"active\",\"tag\":[\"aura\",\"dexterity\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":0,\"description\":\"Casts a temporary aura that increases the movement speed, attack speed and cast speed of you and your allies.\",\"quality\":\"\"}"
+},{
+  "Vaal Glacial Hammer":"{\"nom\":\"Vaal Glacial Hammer\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"vaal\",\"attack\",\"melee\",\"duration\",\"area\",\"cold\"],\"requiertLevel\":0,\"description\":\"Hits the enemy, converting some of your physical damage to cold damage. It traps the enemy with you in a circle of ice so that it can't escape. Requires a Mace or Staff.\",\"quality\":\"\"}"
+},{
+  "Vaal Storm Call":"{\"nom\":\"Vaal Storm Call\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"duration\",\"lightning\"],\"requiertLevel\":0,\"description\":\"Sets a marker at a location. While the marker remains, lightning strikes random enemies near it, dealing damage to them. After a short duration, a large bolt of lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers from this skill.\",\"quality\":\"\"}"
+},{
+  "Righteous Lightning":"{\"nom\":\"Righteous Lightning\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"lightning\"],\"requiertLevel\":0,\"description\":\"Engulfs you in magical lightning that rapidly damages nearby enemies and drains your mana. Your critical strike chance is substantially increased while under this effect. The effect ends when you have no mana remaining.\",\"quality\":\"\"}"
+},{
+  "Vaal FireTrap":"{\"nom\":\"Vaal FireTrap\",\"_type\":\"active\",\"tag\":[\"trap\",\"dexterity\",\"active_skill\",\"vaal\",\"spell\",\"duration\",\"area\",\"fire\"],\"requiertLevel\":1,\"description\":\"Throws multiple traps that explode when triggered, dealing fire damage to surrounding enemies and leaving areas of burning ground that damages enemies who walk through them.\",\"quality\":\"\"}"
+},{
+  "Trap Support":"{\"nom\":\"Trap Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"trap\",\"duration\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"trap_throwing_speed_+% 500\"}"
+},{
+  "Trap Cooldown Support":"{\"nom\":\"Trap Cooldown Support\",\"_type\":\"support\",\"tag\":[\"trap\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Increased Burning Damage Support":"{\"nom\":\"Increased Burning Damage Support\",\"_type\":\"support\",\"tag\":[\"fire\",\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Repeatedly fires a piercing projectile based on your weapon, converting some physical damage to fire. The projectiles form an arc in front of you.\",\"quality\":\"\"}"
+},{
+  "Spark":"{\"nom\":\"Spark\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"duration\",\"lightning\"],\"requiertLevel\":1,\"description\":\"Launches unpredictable sparks that move randomly until they hit an enemy or expire.\",\"quality\":\"\"}"
+},{
+  "Kinetic Blast":"{\"nom\":\"Kinetic Blast\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"attack\",\"area\",\"projectile\"],\"requiertLevel\":28,\"description\":\"Fires a projectile from a Wand that causes a series of small explosions surrounding its point of impact, each damaging enemies caught in the area.\",\"quality\":\"\"}"
+},{
+  "Vaal Burning Arrow":"{\"nom\":\"Vaal Burning Arrow\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"vaal\",\"attack\",\"area\",\"fire\",\"bow\"],\"requiertLevel\":0,\"description\":\"Fires an arrow that explodes, dealing fire damage to its target and other nearby enemies, with an increased chance of igniting them.\",\"quality\":\"\"}"
+},{
+  "Frost Blades":"{\"nom\":\"Frost Blades\",\"_type\":\"active\",\"tag\":[\"projectile\",\"dexterity\",\"active_skill\",\"attack\",\"melee\",\"cold\"],\"requiertLevel\":0,\"description\":\"Attack with increased range, releasing icy blades from the struck enemy that fly at other enemies. Requires a Melee Weapon.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Controlled Destruction Support":"{\"nom\":\"Controlled Destruction Support\",\"_type\":\"support\",\"tag\":[\"spell\",\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Vengeance":"{\"nom\":\"Vengeance\",\"_type\":\"active\",\"tag\":[\"trigger\",\"strength\",\"active_skill\",\"attack\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"Chance to perform a swift counter-attack against all enemies around you when you are hit. Weapon range increases the area of this attack. Requires a Melee Weapon.\",\"quality\":\"melee_counterattack_trigger_on_hit_% 500\"}"
+},{
+  "Vaal Cyclone":"{\"nom\":\"Vaal Cyclone\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"vaal\",\"attack\",\"area\",\"duration\",\"melee\"],\"requiertLevel\":0,\"description\":\"Spin and attack in place, damaging nearby enemies and pulling others towards you.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Raise two spectral spiders from each nearby corpse that will leap towards and attack your enemies. Enemies will not engage the spiders directly.\",\"quality\":\"\"}"
+},{
+  "Vaal Summon Skeletons":"{\"nom\":\"Vaal Summon Skeletons\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"minion\",\"duration\"],\"requiertLevel\":0,\"description\":\"Summons an army of skeletal warriors, archers and mages, led by a powerful general.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Chain Support":"{\"nom\":\"Chain Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"chaining\",\"projectile\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Bloodlust Support":"{\"nom\":\"Bloodlust Support\",\"_type\":\"support\",\"tag\":[\"attack\",\"strength\",\"support\",\"melee\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Hatred":"{\"nom\":\"Hatred\",\"_type\":\"active\",\"tag\":[\"aura\",\"dexterity\",\"active_skill\",\"spell\",\"area\",\"cold\"],\"requiertLevel\":0,\"description\":\"Casts an aura that increases the cold damage of you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "Concentrated Effect Support":"{\"nom\":\"Concentrated Effect Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\",\"area\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Creates a clone of you that attacks with your weapon.\",\"quality\":\"\"}"
+},{
+  "Reduced Mana Support":"{\"nom\":\"Reduced Mana Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Cold to Fire Support":"{\"nom\":\"Cold to Fire Support\",\"_type\":\"support\",\"tag\":[\"cold\",\"fire\",\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Frenzy":"{\"nom\":\"Frenzy\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"melee\",\"bow\"],\"requiertLevel\":0,\"description\":\"Performs an attack that gives the character a frenzy charge if it hits. Frenzy charges increase your attack speed.\",\"quality\":\"\"}"
+},{
+  "Shockwave Totem":"{\"nom\":\"Shockwave Totem\",\"_type\":\"active\",\"tag\":[\"totem\",\"strength\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":28,\"description\":\"Summons a totem that shakes the earth around it, knocking back and damaging nearby enemies\",\"quality\":\"\"}"
+},{
+  "Heavy Strike":"{\"nom\":\"Heavy Strike\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"melee\"],\"requiertLevel\":0,\"description\":\"Attacks the enemy with a forceful blow, knocking them back. Requires a Mace, Axe, Sword or Two-Handed Weapon.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Casts an aura that causes taking elemental damage to heal you and nearby allies instead.\",\"quality\":\"\"}"
+},{
+  "Assassin's Mark":"{\"nom\":\"Assassin's Mark\",\"_type\":\"active\",\"tag\":[\"curse\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, making them more vulnerable to Critical Strikes. Killing the cursed targets will grant life and mana, and a chance to gain a power charge.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Unleashes an icy projectile that pulses with cold as it travels.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Releases a nova of fire around you, damaging nearby enemies.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Vaal Righteous Fire":"{\"nom\":\"Vaal Righteous Fire\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"vaal\",\"spell\",\"area\",\"fire\"],\"requiertLevel\":0,\"description\":\"A fiery blast removes your energy shield and all but 1 life, exploding outwards to deal fire damage to nearby enemies based on the life and energy shield lost.\",\"quality\":\"\"}"
+},{
+  "Righteous Fire":"{\"nom\":\"Righteous Fire\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"fire\"],\"requiertLevel\":0,\"description\":\"Engulfs you in magical fire that rapidly burns you and nearby enemies. Your spell damage is substantially increased while under this effect. The effect ends when you have 1 life remaining.\",\"quality\":\"\"}"
+},{
+  "Remote Mine Support":"{\"nom\":\"Remote Mine Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\",\"mine\",\"duration\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Arctic Breath":"{\"nom\":\"Arctic Breath\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"duration\",\"area\",\"cold\"],\"requiertLevel\":28,\"description\":\"Fires a frozen skull projectile that leaves a trail of ground ice behind it. It explodes on impact, creating more ground ice and damaging targets within an area.\",\"quality\":\"\"}"
+},{
+  "Ice Trap":"{\"nom\":\"Ice Trap\",\"_type\":\"active\",\"tag\":[\"trap\",\"dexterity\",\"active_skill\",\"spell\",\"area\",\"cold\",\"duration\"],\"requiertLevel\":28,\"description\":\"Throws a trap that creates a series of icy runic explosions when triggered, dealing cold damage to all enemies caught in the blasts.\",\"quality\":\"base_skill_area_of_effect_+% 500\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Summons three icy skull minions that explode at the end of their duration.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Unleashes an icy projectile that pulses with cold as it travels.\",\"quality\":\"\"}"
+},{
+  "Ice Shot":"{\"nom\":\"Ice Shot\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"area\",\"duration\",\"cold\",\"bow\"],\"requiertLevel\":1,\"description\":\"Fires an arrow that converts some physical damage to cold on its target and converts all physical damage to cold in a cone behind that target. Creates a patch of ground ice under the target.\",\"quality\":\"\"}"
+},{
+  "Elemental Weakness":"{\"nom\":\"Elemental Weakness\",\"_type\":\"active\",\"tag\":[\"curse\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, making them less resistant to elemental damage.\",\"quality\":\"\"}"
+},{
+  "Cast when Stunned Support":"{\"nom\":\"Cast when Stunned Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\",\"spell\",\"trigger\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"damage_+% 500\"}"
+},{
+  "Conductivity":"{\"nom\":\"Conductivity\",\"_type\":\"active\",\"tag\":[\"curse\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\",\"lightning\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, making them less resistant to lightning damage and giving them a chance to be shocked by lightning damage.\",\"quality\":\"\"}"
+},{
+  "Ice Bite Support":"{\"nom\":\"Ice Bite Support\",\"_type\":\"support\",\"tag\":[\"cold\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Physical to Lightning Support":"{\"nom\":\"Physical to Lightning Support\",\"_type\":\"support\",\"tag\":[\"lightning\",\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Summon Lightning Golem":"{\"nom\":\"Summon Lightning Golem\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"lightning\",\"minion\",\"spell\",\"golem\"],\"requiertLevel\":34,\"description\":\"Summons a Lightning Golem that grants you increased Attack and Cast speed. The Lightning Golem fires a projectile spell, creates orbs of Lightning that zap nearby enemies, and casts a temporary aura that grants added Lightning Damage to the Golem and its nearby allies.\",\"quality\":\"minion_maximum_life_+% 1000\\nminion_damage_+% 1000\"}"
+},{
+  "Magma Orb":"{\"nom\":\"Magma Orb\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"fire\",\"chaining\"],\"requiertLevel\":1,\"description\":\"Lob a fiery orb that explodes as it strikes the ground. The skill chains, releasing another fiery orb that repeats this effect.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Fires a chaining burst of ethereal blades.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"A spiral of bones erupts around you, dealing physical damage.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Summons three icy skull minions that explode at the end of their duration.\",\"quality\":\"\"}"
+},{
+  "Lightning Strike":"{\"nom\":\"Lightning Strike\",\"_type\":\"active\",\"tag\":[\"projectile\",\"dexterity\",\"active_skill\",\"attack\",\"melee\",\"lightning\"],\"requiertLevel\":0,\"description\":\"Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy is released from the weapon as projectiles as you strike, flying out behind your target to hit farther-away enemies. The projectiles cannot miss if the melee attack hit its target.\",\"quality\":\"\"}"
+},{
+  "Convocation":"{\"nom\":\"Convocation\",\"_type\":\"active\",\"tag\":[\"minion\",\"intelligence\",\"active_skill\",\"spell\",\"duration\"],\"requiertLevel\":24,\"description\":\"Recalls all minions that are following you to your location, and grants them a temporary life regeneration effect.\",\"quality\":\"skill_effect_duration_+% 1000\\nbase_cast_speed_+% 500\"}"
+},{
+  "Double Strike":"{\"nom\":\"Double Strike\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"melee\"],\"requiertLevel\":0,\"description\":\"Performs two fast attacks on target enemy with your main hand melee weapon.\",\"quality\":\"\"}"
+},{
+  "Vaal Soul Harvesting":"{\"nom\":\"Vaal Soul Harvesting\",\"_type\":\"support\",\"tag\":[\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Creates a clone of you that attacks with your weapon.\",\"quality\":\"\"}"
+},{
+  "Molten Shell":"{\"nom\":\"Molten Shell\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"spell\",\"area\",\"duration\",\"fire\"],\"requiertLevel\":4,\"description\":\"Summons fiery elemental shields providing additional armour for a short duration. If cumulative physical damage prevented by your blocking or armour reaches a threshold, the shields explode outwards, dealing fire damage to surrounding enemies.\",\"quality\":\"\"}"
+},{
+  "Blood Magic Support":"{\"nom\":\"Blood Magic Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Casts an aura that adds chaos damage to the attacks and spells of you and your allies.\",\"quality\":\"\"}"
+},{
+  "Herald of Blood":"{\"nom\":\"Herald of Blood\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"cast\",\"area\",\"duration\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Repeatedly fires a piercing projectile based on your weapon, converting some physical damage to fire. The projectiles form an arc in front of you.\",\"quality\":\"\"}"
+},{
+  "Life Leech Support":"{\"nom\":\"Life Leech Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Drops a meteor from above on a nearby foe, dealing fire damage in an area around them.\",\"quality\":\"\"}"
+},{
+  "Ethereal Knives":"{\"nom\":\"Ethereal Knives\",\"_type\":\"active\",\"tag\":[\"projectile\",\"dexterity\",\"active_skill\",\"spell\"],\"requiertLevel\":1,\"description\":\"Fires an arc of knives in front of the caster which deals physical damage.\",\"quality\":\"\"}"
+},{
+  "Multistrike Support":"{\"nom\":\"Multistrike Support\",\"_type\":\"support\",\"tag\":[\"attack\",\"melee\",\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Dominating Blow":"{\"nom\":\"Dominating Blow\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"minion\",\"duration\",\"melee\"],\"requiertLevel\":28,\"description\":\"Attacks the enemy with a melee strike. If a non-unique enemy is killed shortly after being hit by Dominating Blow, that enemy is revived as a minion until the skill duration ends.\",\"quality\":\"\"}"
+},{
+  "Multiple Traps Support":"{\"nom\":\"Multiple Traps Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"trap\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Portal":"{\"nom\":\"Portal\",\"_type\":\"active\",\"tag\":[\"low_max_level\",\"active_skill\",\"spell\"],\"requiertLevel\":0,\"description\":\"Creates a portal to the current area's town.\",\"quality\":\"\"}"
+},{
+  "Split Projectiles Support":"{\"nom\":\"Split Projectiles Support\",\"_type\":\"support\",\"tag\":[\"dexterity\",\"support\",\"projectile\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Smoke Mine":"{\"nom\":\"Smoke Mine\",\"_type\":\"active\",\"tag\":[\"mine\",\"dexterity\",\"active_skill\",\"spell\",\"area\",\"duration\",\"movement\"],\"requiertLevel\":10,\"description\":\"Places a mine that will teleport you to it when detonated. It covers both your escape and arrival with a cloud of smoke that blinds enemies, and gives you a temporary buff to movement speed.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Minefield Support":"{\"nom\":\"Minefield Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\",\"mine\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Shock Nova":"{\"nom\":\"Shock Nova\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"lightning\"],\"requiertLevel\":28,\"description\":\"Casts a ring of Lightning around you, followed by a larger Lightning nova. Each effect hits enemies caught in their area with Lightning Damage.\",\"quality\":\"\"}"
+},{
+  "Flameblast":"{\"nom\":\"Flameblast\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"fire\",\"channelling\"],\"requiertLevel\":28,\"description\":\"Channels to build up a large explosion, which is released when you stop using the skill. The longer you channel, the larger the area of effect and damage of the explosion.\",\"quality\":\"\"}"
+},{
+  "Reckoning":"{\"nom\":\"Reckoning\",\"_type\":\"active\",\"tag\":[\"trigger\",\"strength\",\"active_skill\",\"attack\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"Perform a swift counter-attack against enemies in a cone shape when you block with your shield.\",\"quality\":\"base_skill_area_of_effect_+% 500\"}"
+},{
+  "Flame Totem":"{\"nom\":\"Flame Totem\",\"_type\":\"active\",\"tag\":[\"projectile\",\"totem\",\"strength\",\"active_skill\",\"spell\",\"duration\",\"fire\"],\"requiertLevel\":4,\"description\":\"Summons a totem that fires a stream of flame at nearby enemies.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"This attack is performed repeatedly by a ghostly imitation of your weapon.\",\"quality\":\"\"}"
+},{
+  "Frost Bomb":"{\"nom\":\"Frost Bomb\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\",\"cold\"],\"requiertLevel\":4,\"description\":\"Creates a crystal that pulses with cold for a duration. Each pulse applies a debuff to nearby enemies that reduces their cold resistance and life regeneration. When its duration ends, the crystal explodes, dealing heavy cold damage to enemies around it.\",\"quality\":\"cold_damage_+% 1000\"}"
+},{
+  "Lightning Channel":"{\"nom\":\"Lightning Channel\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"lightning\"],\"requiertLevel\":1,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Release a lightning charged spinning copy of your weapon or its projectiles that rotates around a point, damaging enemies in an area.\",\"quality\":\"\"}"
+},{
+  "Added Cold Damage Support":"{\"nom\":\"Added Cold Damage Support\",\"_type\":\"support\",\"tag\":[\"cold\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Spell Totem Support":"{\"nom\":\"Spell Totem Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\",\"totem\",\"duration\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Item Rarity Support":"{\"nom\":\"Item Rarity Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Spectral Throw":"{\"nom\":\"Spectral Throw\",\"_type\":\"active\",\"tag\":[\"projectile\",\"dexterity\",\"active_skill\",\"attack\"],\"requiertLevel\":1,\"description\":\"Throws a spectral copy of your melee weapon. It flies out and then returns to you, in a spinning attack that strikes enemies in its path.\",\"quality\":\"\"}"
+},{
+  "Molten Strike":"{\"nom\":\"Molten Strike\",\"_type\":\"active\",\"tag\":[\"projectile\",\"strength\",\"active_skill\",\"attack\",\"area\",\"melee\",\"fire\"],\"requiertLevel\":0,\"description\":\"Attacks a target with physical and fire damage, causing balls of molten magma to launch forth from your weapon as you swing. These will explode, causing AoE attack damage to enemies where they land.\",\"quality\":\"\"}"
+},{
+  "Lightning Warp":"{\"nom\":\"Lightning Warp\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\",\"movement\",\"lightning\"],\"requiertLevel\":10,\"description\":\"Casts a delayed teleport to a target destination. When the teleport occurs, lightning damage is dealt to the area around both where the player was and where they teleported to.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Release a lightning charged spinning copy of your weapon or its projectiles that rotates around a point, damaging enemies in an area.\",\"quality\":\"\"}"
+},{
+  "Chance to Ignite Support":"{\"nom\":\"Chance to Ignite Support\",\"_type\":\"support\",\"tag\":[\"fire\",\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Charges you with lightning which lasts a duration before unleashing, damaging surrounding enemies.\",\"quality\":\"\"}"
+},{
+  "Increased Area of Effect Support":"{\"nom\":\"Increased Area of Effect Support\",\"_type\":\"support\",\"tag\":[\"intelligence\",\"support\",\"area\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Fire a nova of icy projectiles.\",\"quality\":\"\"}"
+},{
+  "Weapon Elemental Damage Support":"{\"nom\":\"Weapon Elemental Damage Support\",\"_type\":\"support\",\"tag\":[\"attack\",\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Ignite":"{\"nom\":\"Ignite\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"duration\",\"fire\"],\"requiertLevel\":0,\"description\":\"Sets an enemy on fire from a distance.\",\"quality\":\"\"}"
+},{
+  "Poacher's Mark":"{\"nom\":\"Poacher's Mark\",\"_type\":\"active\",\"tag\":[\"curse\",\"dexterity\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, making them less evasive. Hitting the cursed targets will grant life and mana, and killing them will result in more flask charges and a chance to gain a frenzy charge.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Fire a nova of icy projectiles.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Teleport to a target destination. Chilled ground is spread in an area around both where the caster was and where they teleported to.\",\"quality\":\"\"}"
+},{
+  "Barrage":"{\"nom\":\"Barrage\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"bow\"],\"requiertLevel\":12,\"description\":\"After a short preparation time, you attack repeatedly with a ranged weapon. These attacks have a small randomised spread. Only works with Bows and Wands.\",\"quality\":\"\"}"
+},{
+  "Summon Stone Golem":"{\"nom\":\"Summon Stone Golem\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"minion\",\"spell\",\"golem\"],\"requiertLevel\":34,\"description\":\"Summons a Stone Golem that grants you life regeneration. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that taunts enemies.\",\"quality\":\"minion_maximum_life_+% 1000\\nminion_damage_+% 1000\"}"
+},{
+  "Hypothermia Support":"{\"nom\":\"Hypothermia Support\",\"_type\":\"support\",\"tag\":[\"cold\",\"dexterity\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Knockback Support":"{\"nom\":\"Knockback Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Summon Flame Golem":"{\"nom\":\"Summon Flame Golem\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"fire\",\"minion\",\"spell\",\"golem\"],\"requiertLevel\":34,\"description\":\"Summons a Flame Golem that grants you increased Damage. The Flame Golem can use a fire spray, a wave of fire damage, and an explosive arcing projectile.\",\"quality\":\"minion_maximum_life_+% 1000\\nminion_damage_+% 1000\"}"
+},{
+  "Shield Charge":"{\"nom\":\"Shield Charge\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"area\",\"movement\",\"melee\"],\"requiertLevel\":0,\"description\":\"Charges at a targeted location or enemy, pushing away enemies in your path and repeatedly dealing damage in a small area in front of you. You deal damage in a larger area when you reach the target. The further you travel, the more damage you deal, and the greater your chance of stunning enemies.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"support\",\"tag\":[],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Storm Call":"{\"nom\":\"Storm Call\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\",\"lightning\"],\"requiertLevel\":12,\"description\":\"Sets a marker at a location. After a short duration, lightning strikes the marker, dealing damage around it. When this happens, it will also set off the lightning at any other markers you've cast.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Fire a nova of icy projectiles.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Unleashes an icy projectile that pulses with cold as it travels.\",\"quality\":\"\"}"
+},{
+  "aucune idée":"{\"nom\":\"aucune idée\",\"_type\":\"active\",\"tag\":[],\"requiertLevel\":0,\"description\":\"Releases Dancing Dervish to fight by your side. While Dancing Dervish is manifested, you have Onslaught and cannot use Weapons.\",\"quality\":\"\"}"
+},{
+  "Animate Weapon":"{\"nom\":\"Animate Weapon\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"duration\",\"minion\",\"spell\"],\"requiertLevel\":4,\"description\":\"Animates a melee weapon to fight by your side. You cannot animate unidentified weapons.\",\"quality\":\"\"}"
+},{
+  "New Blade Vortex":"{\"nom\":\"New Blade Vortex\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":0,\"description\":\"This spell creates ethereal blades which orbit in an area around you, periodically dealing damage to all enemies in their radius. As more blades are added, the damage becomes greater and more frequent.\",\"quality\":\"\"}"
+},{
+  "Bladefall":"{\"nom\":\"Bladefall\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"spell\",\"area\"],\"requiertLevel\":28,\"description\":\"Ethereal weapons rain from the sky, dealing damage to enemies in a sequence of five volleys, each wider but less damaging than the last. Enemies can be hit multiple times where these overlap.\",\"quality\":\"\"}"
+},{
+  "Firestorm":"{\"nom\":\"Firestorm\",\"_type\":\"active\",\"tag\":[\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\",\"fire\"],\"requiertLevel\":12,\"description\":\"Flaming bolts rain down over the targeted area. They explode when landing, dealing damage to nearby enemies.\",\"quality\":\"\"}"
+},{
+  "Added Chaos Damage Support":"{\"nom\":\"Added Chaos Damage Support\",\"_type\":\"support\",\"tag\":[\"chaos\",\"intelligence\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Minion Speed Support":"{\"nom\":\"Minion Speed Support\",\"_type\":\"support\",\"tag\":[\"movement\",\"intelligence\",\"support\",\"minion\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Added Fire Damage Support":"{\"nom\":\"Added Fire Damage Support\",\"_type\":\"support\",\"tag\":[\"fire\",\"strength\",\"support\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Anger":"{\"nom\":\"Anger\",\"_type\":\"active\",\"tag\":[\"aura\",\"strength\",\"active_skill\",\"spell\",\"area\",\"fire\"],\"requiertLevel\":0,\"description\":\"Casts an aura that adds fire damage to the attacks and spells of you and your allies.\",\"quality\":\"base_skill_area_of_effect_+% 1000\"}"
+},{
+  "Vulnerability":"{\"nom\":\"Vulnerability\",\"_type\":\"active\",\"tag\":[\"curse\",\"intelligence\",\"active_skill\",\"spell\",\"area\",\"duration\"],\"requiertLevel\":24,\"description\":\"Curses all targets in an area, making them take increased physical damage and degeneration.\",\"quality\":\"\"}"
+},{
+  "Blink Arrow":"{\"nom\":\"Blink Arrow\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"minion\",\"duration\",\"movement\",\"bow\"],\"requiertLevel\":10,\"description\":\"Fires an arrow at the target destination. When the arrow lands, you are teleported to it and a clone is summoned at your old location. The clone is a minion that uses your bow and quiver.\",\"quality\":\"base_arrow_speed_+% 1500\"}"
+},{
+  "Essence Drain":"{\"nom\":\"Essence Drain\",\"_type\":\"active\",\"tag\":[\"projectile\",\"intelligence\",\"active_skill\",\"spell\",\"duration\",\"chaos\"],\"requiertLevel\":12,\"description\":\"Fires a projectile that applies a damage over time debuff when it hits. You are healed for a portion of the debuff damage. The debuff is spread by Contagion.\",\"quality\":\"\"}"
+},{
+  "Ancestral Protector":"{\"nom\":\"Ancestral Protector\",\"_type\":\"active\",\"tag\":[\"totem\",\"strength\",\"active_skill\",\"attack\",\"duration\",\"melee\"],\"requiertLevel\":0,\"description\":\"Summons an Ancestor Totem which will attack enemies with melee strikes while you stand close to it. Being near it grants you more attack speed.\",\"quality\":\"\"}"
+},{
+  "Increased Duration Support":"{\"nom\":\"Increased Duration Support\",\"_type\":\"support\",\"tag\":[\"strength\",\"support\",\"duration\"],\"requiertLevel\":0,\"description\":\"\",\"quality\":\"\"}"
+},{
+  "Lacerate":"{\"nom\":\"Lacerate\",\"_type\":\"active\",\"tag\":[\"dexterity\",\"active_skill\",\"attack\",\"area\",\"melee\"],\"requiertLevel\":0,\"description\":\"Slashes twice, releasing waves of force that damage enemies they hit. Enemies in the middle of the slashes can be hit by both. If you are dual wielding, you attack with your Main Hand, then your Off Hand. Can be used with Axes and Swords.\",\"quality\":\"\"}"
+},{
+  "Infernal Blow":"{\"nom\":\"Infernal Blow\",\"_type\":\"active\",\"tag\":[\"strength\",\"active_skill\",\"attack\",\"area\",\"melee\",\"fire\"],\"requiertLevel\":0,\"description\":\"Hits the enemy, converting some of your physical damage to fire damage. If the enemy dies soon after being hit, they will explode, dealing fire damage to nearby enemies. The damage from this explosion cannot be reflected. Requires a Sword, Axe, Mace, Staff or Unarmed.\",\"quality\":\"\"}"
+}]
