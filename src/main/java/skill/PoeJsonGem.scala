@@ -1,5 +1,8 @@
 package skill
 
+import org.json4s.FieldSerializer
+import org.json4s.FieldSerializer._
+
 import scala.collection.convert.Wrappers.JMapWrapper
 
 /**
@@ -8,11 +11,14 @@ import scala.collection.convert.Wrappers.JMapWrapper
 case class ActiveSkill(description :String, displayName :String, id :String, isManuallyCasted :Boolean, isSkillTotem :Boolean, statConversions : Map[String, String], types :List[String], weaponRestrictions :List[String])
 case class BaseItem(displayName :String, id :String, releaseState :String)
 case class QualityStat(id :String, value :Int)
-case class Static(cooldown :Int, qualityStats :List[QualityStat], statRequirements :Map[String, Int])
-case class PerLevelStat(manaCost :String, requiredLevel :Int, statRequirements :Map[String, Int])
-case class JsonGemExtract(activeSkill :Option[ActiveSkill], baseItem :BaseItem, static :Option[Static], perLevel :Option[Map[Int, PerLevelStat]], castTime :Option[Int], isSupport :Boolean, tags :List[String])
+case class GemStats(id :Option[String], value :Option[Int])
+case class StaticStat(cooldown :Option[Int], manaCost :Option[Int], qualityStats :List[QualityStat], statRequirements :Map[String, Int], stats :List[GemStats])
+case class PerLevelStat(manaCost :Option[String], requiredLevel :Int, statRequirements :Map[String, Int], stats :List[GemStats])
+//case class PerLevelStatPerStat()
+case class JsonGemExtract(activeSkill :Option[ActiveSkill], baseItem :BaseItem, static :Option[StaticStat], perLevel :Option[Map[Int, PerLevelStat]], castTime :Option[Int], isSupport :Boolean, tags :List[String])
 
-case class PoeJsonGem(nom :String, _type :String, tag :List[String], requiertLevel :Int, description :String, quality :String)
+case class PoeJsonGem(nom :String, _type :String, tag :List[String], requiertLevel :Int, description :String, quality :String, allStatsPerStatsPerLevel :Map[String, List[String]])
+
 //"Mana cost": "26 to 56",
 //"Cooldown Time": "4.00",
 //"Cast speed": "0.25",
@@ -30,26 +36,37 @@ case class PoeJsonGem(nom :String, _type :String, tag :List[String], requiertLev
 "Explication": "Abyssal Cry fait blabla bli </br> Bla bla bla."*/
 
 object Transform{
+
   def toFr(jsonGemExtract: JsonGemExtract) : PoeJsonGem = {
     val activeSkill = jsonGemExtract.activeSkill.map(_ => "active").getOrElse("support")
     val display = if(jsonGemExtract.baseItem == null) "aucune idée" else jsonGemExtract.baseItem.displayName
+    val a = jsonGemExtract.perLevel.getOrElse(Map.empty).toList.flatMap{case (level, perLevelStat) =>
+      perLevelStat.stats.zipWithIndex.map{ case (gemStats, statsKey) =>
+        (statsKey, level, gemStats)
+      }}
+    val b = a.groupBy(_._1).mapValues(_.groupBy(_._2).mapValues(_.head._3))
+    val c = b.flatMap{ case (stats, statsPerLevel) =>
+        val id = jsonGemExtract.static.map(_.stats).getOrElse(List.empty).lift(stats).flatMap(_.id).getOrElse("c'est quoi cette stats ?")
+      if(statsPerLevel.values.exists(_ != null)) Some(s"Effetvar$stats" -> (id :: statsPerLevel.toSeq.sortBy(_._1).foldLeft(List[String]()){ case(acc, curr) => acc :+ curr._2.value.getOrElse(0).toString}))
+      else None
+    }
+    val allStatsPerStatsPerLevel = c
     new PoeJsonGem(display,
       activeSkill,
       jsonGemExtract.tags,
       jsonGemExtract.perLevel.flatMap(_.get(1)).map(_.requiredLevel).getOrElse(0),
       jsonGemExtract.activeSkill.map(_.description).getOrElse(""),
-      jsonGemExtract.static.map(_.qualityStats.map(quality => s"${quality.id} ${quality.value}").mkString("\n")).getOrElse(""))
+      jsonGemExtract.static.map(_.qualityStats.map(quality => s"${quality.id} ${quality.value}").mkString("\n")).getOrElse(""),
+      allStatsPerStatsPerLevel)
   }
+  val poeJsonGemSerializer = FieldSerializer[PoeJsonGem](renameTo("_type", "Type"))
 
   def MapToJson(map :Map[String, PoeJsonGem]) = {
     import org.json4s._
-    import org.json4s.JsonDSL._
-    import org.json4s.native.JsonMethods._
     import org.json4s.native.Serialization.write
 
-    implicit val formats = DefaultFormats
+    implicit val formats = DefaultFormats + poeJsonGemSerializer
 
-    val json = map.values.map(gem => JField(gem.nom,write(gem)))
-    pretty(render(json))
+    write(map)
   }
 }
