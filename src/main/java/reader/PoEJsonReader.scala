@@ -20,11 +20,14 @@ object PoEJsonReader {
     val allSkillJson = jsonMain.extract[Map[String, JValue]]
 
     val allSkillExtracted = allSkillJson
-      //FIXME
+      //DEBUG
       //.filterKeys(_.equals("AbyssalCry"))
       .mapValues{_.camelizeKeys.extract[JsonGemExtract]}
+      // FILTRE
+      .filter(_._2.baseItem != null)
 
     val allSkillTransform = allSkillExtracted.mapValues(Transform.toFr)
+
 
     val allSkillTransformNewJson = Transform.MapToJson(allSkillTransform)
 
