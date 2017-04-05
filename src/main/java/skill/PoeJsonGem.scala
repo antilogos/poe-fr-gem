@@ -1,6 +1,6 @@
 package skill
 
-import org.json4s.FieldSerializer
+import org.json4s.{CustomKeySerializer, FieldSerializer}
 import org.json4s.FieldSerializer._
 
 import scala.collection.convert.Wrappers.JMapWrapper
@@ -15,7 +15,8 @@ case class GemStats(id :Option[String], value :Option[Int])
 case class StaticStat(cooldown :Option[Int], manaCost :Option[Int], qualityStats :List[QualityStat], statRequirements :Map[String, Int], stats :List[GemStats])
 case class PerLevelStat(manaCost :Option[String], requiredLevel :Int, statRequirements :Map[String, Int], stats :List[GemStats])
 //case class PerLevelStatPerStat()
-case class JsonGemExtract(activeSkill :Option[ActiveSkill], baseItem :BaseItem, static :Option[StaticStat], perLevel :Option[Map[Int, PerLevelStat]], castTime :Option[Int], isSupport :Boolean, tags :List[String])
+case class JsonGemExtract(activeSkill :Option[ActiveSkill], baseItem :BaseItem, static :Option[StaticStat], perLevel :Option[Map[Int, PerLevelStat]],
+                          castTime :Option[Int], isSupport :Boolean, tags :List[String])
 
 case class PoeJsonGem(nom :String, _type :String, tag :List[String], requiertLevel :Int, description :String, quality :String, allStatsPerStatsPerLevel :Map[String, List[String]])
 
@@ -40,17 +41,27 @@ object Transform{
   def toFr(jsonGemExtract: JsonGemExtract) : PoeJsonGem = {
     val activeSkill = jsonGemExtract.activeSkill.map(_ => "active").getOrElse("support")
     val display = if(jsonGemExtract.baseItem == null) "aucune idée" else jsonGemExtract.baseItem.displayName
+    // Extraction et mise à plat des bonus par level et par stats
     val a = jsonGemExtract.perLevel.getOrElse(Map.empty).toList.flatMap{case (level, perLevelStat) =>
       perLevelStat.stats.zipWithIndex.map{ case (gemStats, statsKey) =>
         (statsKey, level, gemStats)
       }}
+    // Reconstruction selon les stats
     val b = a.groupBy(_._1).mapValues(_.groupBy(_._2).mapValues(_.head._3))
+    // Reconstruction des bonus par niveau
     val c = b.flatMap{ case (stats, statsPerLevel) =>
         val id = jsonGemExtract.static.map(_.stats).getOrElse(List.empty).lift(stats).flatMap(_.id).getOrElse("c'est quoi cette stats ?")
       if(statsPerLevel.values.exists(_ != null)) Some(s"Effetvar$stats" -> (id :: statsPerLevel.toSeq.sortBy(_._1).foldLeft(List[String]()){ case(acc, curr) => acc :+ curr._2.value.getOrElse(0).toString}))
       else None
     }
-    val allStatsPerStatsPerLevel = c
+    // Fusion des clés min-max
+    val minStat = c.flatMap{case (key, value) => if(value.head.contains("_minimum_")) Some(value.head.replaceAll("_minimum_",""), key, value) else None}
+    val maxStat = c.flatMap{case (key, value) => if(value.head.contains("_maximum_")) Some(value.head.replaceAll("_maximum_",""), key,value) else None}
+    val varStat = minStat.map{case (e, k, v) => k -> (if(maxStat.exists(_._1.equals(e))) Some(v.zip(maxStat.find(_._1.equals(e)).get._3).map{case(min, max) => s"$min-$max"}) else None)}
+      .toMap
+      .filter{case (k, v) => v.nonEmpty}
+      .map{case (k, v) => k -> v.get}
+    val allStatsPerStatsPerLevel = c.filter{case (k, v) => minStat.exists(_._2.equals(v.head)) || maxStat.exists(_._2.equals(v.head))} ++ varStat
     new PoeJsonGem(display,
       activeSkill,
       jsonGemExtract.tags,
@@ -59,6 +70,7 @@ object Transform{
       jsonGemExtract.static.map(_.qualityStats.map(quality => s"${quality.id} ${quality.value}").mkString("\n")).getOrElse(""),
       allStatsPerStatsPerLevel)
   }
+
   val poeJsonGemSerializer = FieldSerializer[PoeJsonGem](renameTo("_type", "Type"))
 
   def MapToJson(map :Map[String, PoeJsonGem]) = {
