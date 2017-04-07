@@ -37,6 +37,7 @@ case class PoeJsonGem(nom :String, _type :String, tag :List[String], requiertLev
 "Explication": "Abyssal Cry fait blabla bli </br> Bla bla bla."*/
 
 object Transform{
+  val formatter = java.text.NumberFormat.getInstance(new java.util.Locale("fr", "FR"))
 
   def toFr(jsonGemExtract: JsonGemExtract) : PoeJsonGem = {
     val activeSkill = jsonGemExtract.activeSkill.map(_ => "active").getOrElse("support")
@@ -67,7 +68,7 @@ object Transform{
       jsonGemExtract.tags,
       jsonGemExtract.perLevel.flatMap(_.get(1)).map(_.requiredLevel).getOrElse(0),
       jsonGemExtract.activeSkill.map(_.description).getOrElse(""),
-      jsonGemExtract.static.map(_.qualityStats.map(quality => s"${quality.id} ${quality.value}").mkString("\n")).getOrElse(""),
+      jsonGemExtract.static.map(_.qualityStats.map(quality => s"${quality.id} ${formatter.format(quality.value.toFloat/1000)}").mkString("\n")).getOrElse(""),
       allStatsPerStatsPerLevel)
   }
 
