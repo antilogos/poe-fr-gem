@@ -25,6 +25,7 @@ object PoEJsonReader {
       .mapValues{_.camelizeKeys.extract[JsonGemExtract]}
       // FILTRE
       .filter(_._2.baseItem != null)
+      .filter(_._2.baseItem.releaseState.equals("1"))
 
     val allSkillTransform = allSkillExtracted.mapValues(Transform.toFr)
 
