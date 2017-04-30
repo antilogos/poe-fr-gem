@@ -8,17 +8,27 @@ import scala.collection.convert.Wrappers.JMapWrapper
 /**
   * Created by vindoq on 17/03/2017.
   */
-case class ActiveSkill(description :String, displayName :String, id :String, isManuallyCasted :Boolean, isSkillTotem :Boolean, statConversions : Map[String, String], types :List[String], weaponRestrictions :List[String])
+case class ActiveSkill(id :String, description :String, displayName :String, isManuallyCasted :Boolean, isSkillTotem :Boolean,
+                        statConversions : Map[String, String], types :List[String], weaponRestrictions :List[String])
 case class BaseItem(displayName :String, id :String, releaseState :String)
 case class QualityStat(id :String, value :Int)
 case class GemStats(id :Option[String], value :Option[Int])
-case class StaticStat(cooldown :Option[Int], manaCost :Option[Int], qualityStats :List[QualityStat], statRequirements :Map[String, Int], stats :List[GemStats])
-case class PerLevelStat(manaCost :Option[String], requiredLevel :Int, statRequirements :Map[String, Int], stats :List[GemStats])
+case class VaalStat(souls :Int, StoredUse :Int)
+case class AffixStat(cooldown :Option[Int], manaCost :Option[Int], manaReservationOverride :Option[Int],
+                      requiredLevel :Option[Int], storedUses :Option[Int], manaMultiplier :Option[Int],
+                      damageEffectiveness :Option[Int], damageMultiplier :Option[Int], critChance :Option[Int],
+                      vaal :Option[VaalStat], statRequirements :Map[String, Int], qualityStats :List[QualityStat], stats :List[GemStats])
 //case class PerLevelStatPerStat()
-case class JsonGemExtract(activeSkill :Option[ActiveSkill], baseItem :BaseItem, static :Option[StaticStat], perLevel :Option[Map[Int, PerLevelStat]],
+case class JsonGemExtract(activeSkill :Option[ActiveSkill], baseItem :BaseItem, projectileSpeed :Option[Int],
+                          static :Option[AffixStat], perLevel :Option[Map[Int, AffixStat]],
                           castTime :Option[Int], isSupport :Boolean, tags :List[String])
 
-case class PoeJsonGem(nom :String, _type :String, tag :List[String], requiertLevel :Int, description :String, quality :String, allStatsPerStatsPerLevel :Map[String, List[String]])
+case class PoeJsonGem(nom :String, _type :String, tag :List[String], requiertLevel :Int, description :Option[String],
+                      cooldown :Option[Int], critChance :Option[Int], damageEffectiveness :Option[Int],
+                      damageMultiplier :Option[Int], manaCost :Option[Int], manaReservationOverride :Option[Int],
+                      manaMultiplier :Option[Int], storedUses :Option[Int],
+                      quality :String, allStatsPerStatsPerLevel :Map[String, List[String]])
+
 
 //"Mana cost": "26 to 56",
 //"Cooldown Time": "4.00",
@@ -63,11 +73,21 @@ object Transform{
       .filter{case (k, v) => v.nonEmpty}
       .map{case (k, v) => k -> v.get}
     val allStatsPerStatsPerLevel = c.filter{case (k, v) => minStat.exists(_._2.equals(v.head)) || maxStat.exists(_._2.equals(v.head))} ++ varStat
+
+
     new PoeJsonGem(display,
       activeSkill,
       jsonGemExtract.tags,
-      jsonGemExtract.perLevel.flatMap(_.get(1)).map(_.requiredLevel).getOrElse(0),
-      jsonGemExtract.activeSkill.map(_.description).getOrElse(""),
+      jsonGemExtract.perLevel.flatMap(_.get(1)).flatMap(_.requiredLevel).getOrElse(0),
+      jsonGemExtract.activeSkill.map(_.description),
+      jsonGemExtract.static.flatMap(_.cooldown),
+      jsonGemExtract.static.flatMap(_.critChance),
+      jsonGemExtract.static.flatMap(_.damageEffectiveness),
+      jsonGemExtract.static.flatMap(_.damageMultiplier),
+      jsonGemExtract.static.flatMap(_.manaCost),
+      jsonGemExtract.static.flatMap(_.manaReservationOverride),
+      jsonGemExtract.static.flatMap(_.manaMultiplier),
+      jsonGemExtract.static.flatMap(_.storedUses),
       jsonGemExtract.static.map(_.qualityStats.map(quality => s"${quality.id} ${formatter.format(quality.value.toFloat/1000)}").mkString("\n")).getOrElse(""),
       allStatsPerStatsPerLevel)
   }

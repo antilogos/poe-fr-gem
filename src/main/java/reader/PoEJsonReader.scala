@@ -29,8 +29,12 @@ object PoEJsonReader {
 
     val allSkillTransform = allSkillExtracted.mapValues(Transform.toFr)
 
+    val allSkillrenamed = allSkillTransform.map{ case (key, gem) =>
+      (gem.nom, gem)
+    }
 
-    val allSkillTransformNewJson = Transform.MapToJson(allSkillTransform)
+    val allSkillTransformNewJson = Transform.MapToJson(allSkillrenamed)
+
 
     val writer = new PrintWriter(new File(PoeUtil.baseFilePath + "gemsJson_fr.json"))
     writer.write(allSkillTransformNewJson)
