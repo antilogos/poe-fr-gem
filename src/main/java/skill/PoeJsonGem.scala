@@ -27,7 +27,8 @@ case class PoeJsonGem(nom :String, _type :String, tag :List[String], requiertLev
                       cooldown :Option[Int], critChance :Option[Int], damageEffectiveness :Option[Int],
                       damageMultiplier :Option[Int], manaCost :Option[Int], manaReservationOverride :Option[Int],
                       manaMultiplier :Option[Int], storedUses :Option[Int],
-                      quality :String, allStatsPerStatsPerLevel :Map[String, List[String]])
+                      quality :String,
+                      allStatsPerStatsStatic :Map[String, String], allStatsPerStatsPerLevel :Map[String, List[String]])
 
 
 //"Mana cost": "26 to 56",
@@ -49,9 +50,12 @@ case class PoeJsonGem(nom :String, _type :String, tag :List[String], requiertLev
 object Transform{
   val formatter = java.text.NumberFormat.getInstance(new java.util.Locale("fr", "FR"))
 
-  def toFr(jsonGemExtract: JsonGemExtract) : PoeJsonGem = {
-    val activeSkill = jsonGemExtract.activeSkill.map(_ => "active").getOrElse("support")
-    val display = if(jsonGemExtract.baseItem == null) "aucune idée" else jsonGemExtract.baseItem.displayName
+  /**
+    * Extrait les valeurs des gemmes, par id de stats et par niveau. Fusionne les valeurs min-max et celles par niveaux ou statique
+    * @param jsonGemExtract
+    * @return
+    */
+  def extractSkillStats(jsonGemExtract: JsonGemExtract) : (Map[String, String], Map[String, List[String]])= {
     // Extraction et mise à plat des bonus par level et par stats
     val a = jsonGemExtract.perLevel.getOrElse(Map.empty).toList.flatMap{case (level, perLevelStat) =>
       perLevelStat.stats.zipWithIndex.map{ case (gemStats, statsKey) =>
@@ -61,19 +65,39 @@ object Transform{
     val b = a.groupBy(_._1).mapValues(_.groupBy(_._2).mapValues(_.head._3))
     // Reconstruction des bonus par niveau
     val c = b.flatMap{ case (stats, statsPerLevel) =>
-        val id = jsonGemExtract.static.map(_.stats).getOrElse(List.empty).lift(stats).flatMap(_.id).getOrElse("c'est quoi cette stats ?")
-      if(statsPerLevel.values.exists(_ != null)) Some(s"Effetvar$stats" -> (id :: statsPerLevel.toSeq.sortBy(_._1).foldLeft(List[String]()){ case(acc, curr) => acc :+ curr._2.value.getOrElse(0).toString}))
+      val id = jsonGemExtract.static.map(_.stats).getOrElse(List.empty).lift(stats).flatMap(_.id).getOrElse("c'est quoi cette stats ?")
+      if(statsPerLevel.values.exists(_ != null)) Some(stats -> (id :: statsPerLevel.toSeq.sortBy(_._1).foldLeft(List[String]()){ case(acc, curr) => acc :+ curr._2.value.getOrElse(0).toString}))
       else None
     }
-    // Fusion des clés min-max
-    val minStat = c.flatMap{case (key, value) => if(value.head.contains("_minimum_")) Some(value.head.replaceAll("_minimum_",""), key, value) else None}
-    val maxStat = c.flatMap{case (key, value) => if(value.head.contains("_maximum_")) Some(value.head.replaceAll("_maximum_",""), key,value) else None}
+    // Fusion des clés min-max en regardant le nom de la stats au niveau 1 et en remplaçant la clé par une nouvelle clé sans minimum / maximum
+    // On garde l'id de la stat pour filtrer ensuite, en position 2
+    val minStat = c.flatMap{case (effetVar, gemStatPerLevel) => if(gemStatPerLevel.head.contains("_minimum_"))
+      Some(gemStatPerLevel.head.replaceAll("_minimum_",""), effetVar, gemStatPerLevel) else None}
+    val maxStat = c.flatMap{case (effetVar, gemStatPerLevel) => if(gemStatPerLevel.head.contains("_maximum_"))
+      Some(gemStatPerLevel.head.replaceAll("_maximum_",""), effetVar, gemStatPerLevel) else None}
+    // Appairage si une min stat a une max stat associé
     val varStat = minStat.map{case (e, k, v) => k -> (if(maxStat.exists(_._1.equals(e))) Some(v.zip(maxStat.find(_._1.equals(e)).get._3).map{case(min, max) => s"$min-$max"}) else None)}
       .toMap
       .filter{case (k, v) => v.nonEmpty}
       .map{case (k, v) => k -> v.get}
-    val allStatsPerStatsPerLevel = c.filter{case (k, v) => minStat.exists(_._2.equals(v.head)) || maxStat.exists(_._2.equals(v.head))} ++ varStat
+    // On reprend la liste des stats en filtrant les min-max puis on ajoute les min-max fusionnées
+    var statPerLevel = (c.filterNot{case (statId, v) => minStat.exists(_._2.equals(statId)) || maxStat.exists(_._2.equals(statId))} ++ varStat)
 
+    // Extraction et mise à plat des bonus static par stats
+    val statStatic = jsonGemExtract.static.map(_.stats).getOrElse(List.empty).zipWithIndex
+      // supprimer de la liste des stats static, les stats per level
+      .filterNot{ case (gemStat, statIndex) => c.exists{ case (statsKey, gemStats) => statIndex == statsKey}}
+      .map{ case (gemStat, statId) => (statId, gemStat.id.getOrElse("") + " " + gemStat.value.getOrElse(0))
+      }.toMap
+
+    (statStatic.map{ case (statId, v) => s"Effet$statId" -> v }, statPerLevel.map{ case (statId, v) => s"Effetvar$statId" -> v })
+  }
+
+  def toFr(jsonGemExtract: JsonGemExtract) : PoeJsonGem = {
+    val activeSkill = jsonGemExtract.activeSkill.map(_ => "active").getOrElse("support")
+    val display = if(jsonGemExtract.baseItem == null) "aucune idée" else jsonGemExtract.baseItem.displayName
+
+    val allStatsPerStatsPerLevel = extractSkillStats(jsonGemExtract)
 
     new PoeJsonGem(display,
       activeSkill,
@@ -89,7 +113,8 @@ object Transform{
       jsonGemExtract.static.flatMap(_.manaMultiplier),
       jsonGemExtract.static.flatMap(_.storedUses),
       jsonGemExtract.static.map(_.qualityStats.map(quality => s"${quality.id} ${formatter.format(quality.value.toFloat/1000)}").mkString("\n")).getOrElse(""),
-      allStatsPerStatsPerLevel)
+      allStatsPerStatsPerLevel._1,
+      allStatsPerStatsPerLevel._2)
   }
 
   val poeJsonGemSerializer = FieldSerializer[PoeJsonGem](renameTo("_type", "Type"))
