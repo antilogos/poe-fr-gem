@@ -29,6 +29,7 @@ case class PoeJsonGem(nom :String, _type :String, tag :List[String], requiertLev
                       manaMultiplier :Option[Int], storedUses :Option[Int],
                       quality :String,
                       allStatsPerStatsStatic :Map[String, String], allStatsPerStatsPerLevel :Map[String, List[String]])
+                      //allStatsPerStatsStatic :Map[String, List[String]])
 
 
 //"Mana cost": "26 to 56",
@@ -66,6 +67,7 @@ object Transform{
     // Reconstruction des bonus par niveau
     val c = b.flatMap{ case (stats, statsPerLevel) =>
       val id = jsonGemExtract.static.map(_.stats).getOrElse(List.empty).lift(stats).flatMap(_.id).getOrElse("c'est quoi cette stats ?")
+      //val humanReadableId = PoeJsonLabel.humanReadableText(id, 0f)
       if(statsPerLevel.values.exists(_ != null)) Some(stats -> (id :: statsPerLevel.toSeq.sortBy(_._1).foldLeft(List[String]()){ case(acc, curr) => acc :+ curr._2.value.getOrElse(0).toString}))
       else None
     }
@@ -87,17 +89,25 @@ object Transform{
     val statStatic = jsonGemExtract.static.map(_.stats).getOrElse(List.empty).zipWithIndex
       // supprimer de la liste des stats static, les stats per level
       .filterNot{ case (gemStat, statIndex) => c.exists{ case (statsKey, gemStats) => statIndex == statsKey}}
-      .map{ case (gemStat, statId) => (statId, gemStat.id.getOrElse("") + " " + gemStat.value.getOrElse(0))
+      .map{ case (gemStat, statId) => (statId, PoeJsonLabel.humanReadableText(gemStat.id.getOrElse(""),gemStat.value.getOrElse(0).toFloat))
       }.toMap
 
     (statStatic.map{ case (statId, v) => s"Effet$statId" -> v }, statPerLevel.map{ case (statId, v) => s"Effetvar$statId" -> v })
   }
 
-  def toFr(jsonGemExtract: JsonGemExtract) : PoeJsonGem = {
+  def extractQualityStats(jsonGemExtract: JsonGemExtract) = {
+    jsonGemExtract.static.map(_.qualityStats.map(quality =>
+      PoeJsonLabel.humanReadableText(quality.id, quality.value.toFloat / 1000f)
+    ).mkString("\n")).getOrElse("")
+  }
+
+  def toFr(gemId :String, jsonGemExtract: JsonGemExtract) : PoeJsonGem = {
     val activeSkill = jsonGemExtract.activeSkill.map(_ => "active").getOrElse("support")
     val display = if(jsonGemExtract.baseItem == null) "aucune idée" else jsonGemExtract.baseItem.displayName
 
+    val altSkillTooltip = PoeJsonTooltip.humanReadableText(gemId)
     val allStatsPerStatsPerLevel = extractSkillStats(jsonGemExtract)
+    val qualityStat = extractQualityStats(jsonGemExtract)
 
     new PoeJsonGem(display,
       activeSkill,
@@ -112,9 +122,9 @@ object Transform{
       jsonGemExtract.static.flatMap(_.manaReservationOverride),
       jsonGemExtract.static.flatMap(_.manaMultiplier),
       jsonGemExtract.static.flatMap(_.storedUses),
-      jsonGemExtract.static.map(_.qualityStats.map(quality => s"${quality.id} ${formatter.format(quality.value.toFloat/1000)}").mkString("\n")).getOrElse(""),
+      qualityStat,
       allStatsPerStatsPerLevel._1,
-      allStatsPerStatsPerLevel._2)
+      altSkillTooltip)
   }
 
   val poeJsonGemSerializer = FieldSerializer[PoeJsonGem](renameTo("_type", "Type"))
